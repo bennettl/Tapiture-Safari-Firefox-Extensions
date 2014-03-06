@@ -6,17 +6,18 @@ The goal of **Tapiture Safari and Firefox Extensions** is to allow users to easi
 
 Enough talk! Where's the extension files!!!
 
-* Safari file is located at tapiture-safari.safariextension/tapiture-safari.safariextz
-* FireFox file is Located at tapiture-firefox/tapiture-firefox.xpi
+* **Safari** file is located at tapiture-safari.safariextension/tapiture-safari.safariextz
+* **FireFox** file is Located at tapiture-firefox/tapiture-firefox.xpi
 
 ## How It Works
 
-###1) Right Click On an Image and click 
+1) Right Click on an image, click "Tap This"
 
-#
+![Menu](http://i.imgur.com/qmpizvs.png)
 
-###2)Click Tap this and a Popup Form will appear
+2) A popup form will appear, enter the necesssary information and click "Tap"
 
+![Popup](http://i.imgur.com/4TrSvKd.png)
 
 ###OR
 
@@ -24,10 +25,10 @@ Enough talk! Where's the extension files!!!
 
 ![Menu](http://i.imgur.com/qmpizvs.png)
 
-2) An overlay will appear, select the image you want to tab
+2) An overlay will appear, select the image you want to Tap
 
 ![Overlay](http://i.imgur.com/O7SaxlU.png)
 
-3) An 
+3) A popup form will appear, enter the necesssary information and click "Tap"
 
 ![Popup](http://i.imgur.com/4TrSvKd.png)

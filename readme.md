@@ -22,12 +22,12 @@ The Safari Extension file is located
 
 1) Right click anywhere on the page, then click "Tap This"
 
-![Menu](./images/menu.png)
+![Menu](browse/images/menu.png)
 
 2) An overlay will appear, select the image you want to tab
 
-![Overlay](./images/overlay.png)
+![Overlay](browse/images/overlay.png)
 
 3) An 
 
-![Popup](./images/popup.png)
+![Popup](browse/images/popup.png)

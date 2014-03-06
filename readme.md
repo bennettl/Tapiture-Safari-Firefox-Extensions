@@ -26,8 +26,8 @@ Enough talk! Where's the extension files!!!
 
 2) An overlay will appear, select the image you want to tab
 
-![Overlay](http://i.imgur.com/O7SaxlU)
+![Overlay](http://i.imgur.com/O7SaxlU.png)
 
 3) An 
 
-![Popup](http://i.imgur.com/4TrSvKd)
+![Popup](http://i.imgur.com/4TrSvKd.png)

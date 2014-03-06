@@ -761,6 +761,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"popup",
 			"stag",
 			"tap",
 			"_ga_pushInterval",
@@ -887,8 +888,7 @@
 			"#car",
 			"elastislide",
 			"gallery()",
-			"artist",
-			"Press"
+			"artist"
 		],
 		"highlight": true,
 		"in_selection": false,

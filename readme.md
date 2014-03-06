@@ -13,7 +13,7 @@ Enough talk! Gimme the extension files!!!
 
 1) Right click on an **image**, then click "Tap To Tapiture".
 
-![Menu](http://i.imgur.com/qmpizvs.png)
+![Menu](http://i.imgur.com/N2w0lZf.png)
 
 2) A popup form will appear, enter the necesssary information and click "Tap".
 
@@ -23,7 +23,7 @@ Enough talk! Gimme the extension files!!!
 
 1) Right click **anywhere on the page**, then click "Tap To Tapiture".
 
-![Menu](http://i.imgur.com/qmpizvs.png)
+![Menu](http://i.imgur.com/N2w0lZf.png)
 
 2) An overlay will appear. Select the image you want to Tap.
 

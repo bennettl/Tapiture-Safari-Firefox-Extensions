@@ -1,34 +1,34 @@
-#Safari and FireFox Extensions
+#Safari and Firefox Extensions
 
-The goal of **Tapiture Safari and Firefox Extensions** is to allow users to easily "Tap" content anywhere on the Internet. Whichever website the user visits, he can simply click "Tap This" to submit the content to Taptiure. Gone are the days when users need to copy links, visit Tapiture's website, and paste their links to submit a form. Tapping new content has never been easier.
+The goal of **Tapiture's Safari and Firefox Extensions** are to allow users to easily "Tap" content anywhere on the Internet. Whichever website the user visits, he can simply click "Tap This" to submit the content to Taptiure. Gone are the days when users need to copy links, visit Tapiture's website, and paste their links to submit a form. Tapping new content has never been easier.
 
 ## Extension Files
 
 Enough talk! Gimme the extension files!!!
 
 * **Safari** file is located at tapiture-safari.safariextension/tapiture-safari.safariextz
-* **FireFox** file is Located at tapiture-firefox/tapiture-firefox.xpi
+* **FireFox** file is located at tapiture-firefox/tapiture-firefox.xpi
 
 ## How It Works
 
-1) Right Click on an image, click "Tap This"
+1) Right click on an **image**, then click "Tap This".
 
 ![Menu](http://i.imgur.com/qmpizvs.png)
 
-2) A popup form will appear, enter the necesssary information and click "Tap"
+2) A popup form will appear, enter the necesssary information and click "Tap".
 
 ![Popup](http://i.imgur.com/4TrSvKd.png)
 
 ###OR
 
-1) Right click anywhere on the page, then click "Tap This"
+1) Right click **anywhere on the page**, then click "Tap This".
 
 ![Menu](http://i.imgur.com/qmpizvs.png)
 
-2) An overlay will appear, select the image you want to Tap
+2) An overlay will appear. Select the image you want to Tap.
 
 ![Overlay](http://i.imgur.com/O7SaxlU.png)
 
-3) A popup form will appear, enter the necesssary information and click "Tap"
+3) A popup form will appear. Enter the necesssary information and click "Tap".
 
 ![Popup](http://i.imgur.com/4TrSvKd.png)

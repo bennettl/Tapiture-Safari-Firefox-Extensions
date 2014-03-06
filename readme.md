@@ -13,11 +13,14 @@ Enough talk! Gimme the extension files!!!
 
 ### Toolbar
 1) Click on the Tapiture Icon on The Navigation Bar
+
 ![Safari Toolbar](http://i.imgur.com/EZYn4sO.png)
+
 ![FireFox Toolbar](http://i.imgur.com/TdNZb9p.png)
 
 2) A popup form will appear, enter the necesssary information and click "Tap".
-![Popup](http://i.imgur.com/4TrSvKd.png)
+
+![Overlay](http://i.imgur.com/O7SaxlU.png)
 
 ### Menu
 1) Right click on an **image**, then click "Tap To Tapiture".

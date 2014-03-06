@@ -6,11 +6,20 @@ The goal of **Tapiture's Safari and Firefox Extensions** are to allow users to e
 
 Enough talk! Gimme the extension files!!!
 
-* **Safari** file is located at tapiture-safari.safariextension/tapiture-safari.safariextz
-* **FireFox** file is located at tapiture-firefox/tapiture-firefox.xpi
+* **Safari** extension file is located at tapiture-safari.safariextension/tapiture-safari.safariextz
+* **FireFox** extension file is located at tapiture-firefox/tapiture-firefox.xpi
 
 ## How It Works
 
+### Toolbar
+1) Click on the Tapiture Icon on The Navigation Bar
+![Safari Toolbar](http://i.imgur.com/EZYn4sO.png)
+![FireFox Toolbar](http://i.imgur.com/TdNZb9p.png)
+
+2) A popup form will appear, enter the necesssary information and click "Tap".
+![Popup](http://i.imgur.com/4TrSvKd.png)
+
+### Menu
 1) Right click on an **image**, then click "Tap To Tapiture".
 
 ![Menu](http://i.imgur.com/N2w0lZf.png)
@@ -19,7 +28,7 @@ Enough talk! Gimme the extension files!!!
 
 ![Popup](http://i.imgur.com/4TrSvKd.png)
 
-###OR
+OR
 
 1) Right click **anywhere on the page**, then click "Tap To Tapiture".
 

@@ -5,7 +5,6 @@ safari.self.addEventListener("message", contextMenuItemCallBack, false); // Mess
 // Global variable
 var userInfo = {};
 
-
 // Set up information for userInfo global variable
 function rightClickCallBack(event) {
     if (event.which === 3 || event.button === 2) {

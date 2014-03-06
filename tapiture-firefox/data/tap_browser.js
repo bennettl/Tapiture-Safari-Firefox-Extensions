@@ -2,6 +2,8 @@
 // 2014 Tapiture LLC http://tapiture.com
 // JavaScript by Joe Yu(joe@tapiture.com)
 
+var self = require("sdk/self");
+
 var vers = "2.1";
 var total_taps = 0;
 var _ga_pushInterval;
@@ -210,6 +212,9 @@ function popup(url) {
 
 } // end popup
 
+self.port.on('message', function() {
+    console.log('message recievd');
+});
 
 // Application Logic
 init_UI(); // Create Mosaic

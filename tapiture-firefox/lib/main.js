@@ -1,6 +1,42 @@
 // Initialize context menu and data objects
 var cm = require("sdk/context-menu");
 var data = require("sdk/self").data;
+var tabs = require("sdk/tabs");
+
+/** When User Clicks Toolbar Image **/
+require("toolbarwidget").ToolbarWidget({
+    toolbarID: "nav-bar", // <-- Place widget on Navigation bar
+    id: "tap-icon",
+    label: "Tap on Tapiture",
+    contentURL: data.url("favicon.png"),
+    onClick: function() {
+        tabs.activeTab.attach({
+            contentScriptFile: [data.url("tap_browser.js")],
+            contentScript: 'addOverlay();'
+        });
+    },
+    contentScriptWhen: "ready"
+});
+
+// Widget({
+//   id: "mozilla-icon",
+//   label: "My Mozilla Widget",
+// });
+
+var tabs = require("sdk/tabs");
+
+// require("sdk/widget").Widget({
+//     id: "auto-update-widget",
+//     label: "Widget that updates content on a timer",
+//     contentURL: "http://www.mozilla.org/favicon.ico",
+//     onClick: function() {
+//         tabs.activeTab.attach({
+//             contentScriptFile: [data.url("tap_browser.js")],
+//             contentScript: 'addOverlay();'
+//         });
+//     },
+//     contentScriptWhen: "ready"
+// });
 
 /** When User Clicks Single Image **/
 // Attaches "click" event handler to tap(Info)
@@ -34,6 +70,7 @@ cm.Item({
     contentScriptFile: [data.url("tap_browser.js")]
 });
 
+// https://github.com/Rob--W/toolbarwidget-jplib
 // var pageMod = require("sdk/page-mod");
 
 // pageMod.PageMod({

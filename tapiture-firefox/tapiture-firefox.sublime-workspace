@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"conte",
+				"contentScript"
+			],
+			[
+				"tool",
+				"toolbarButtonCallBack"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
 				"user",
 				"userInfo"
 			],
@@ -502,18 +514,6 @@
 			[
 				"zin",
 				"zindex"
-			],
-			[
-				"zi",
-				"zindex"
-			],
-			[
-				"click",
-				"click  (function)"
-			],
-			[
-				"post",
-				"posterClick"
 			]
 		]
 	},
@@ -617,9 +617,10 @@
 	"file_history":
 	[
 		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/data/tap_browser.js",
-		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/lib/main.js",
 		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/data/test.js",
+		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/lib/main.js",
 		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/lib/test.js",
+		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/package.json",
 		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/lib/tap_browser.js",
 		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/controllers/users_controller.rb",
 		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/spec/models/user_spec.rb",
@@ -742,8 +743,7 @@
 		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/about.php",
 		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/style.css",
 		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/gallery/css/black.css",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/css/index.css",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/mothers-red-dress/thanks.php"
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/css/index.css"
 	],
 	"find":
 	{
@@ -761,6 +761,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"toolbarButtonCallBack",
+			"contentScriptFile",
 			"tap",
 			"_ga_pushInterval",
 			"css",
@@ -886,9 +888,7 @@
 			"#car",
 			"elastislide",
 			"gallery()",
-			"artist",
-			"Press",
-			"press"
+			"artist"
 		],
 		"highlight": true,
 		"in_selection": false,

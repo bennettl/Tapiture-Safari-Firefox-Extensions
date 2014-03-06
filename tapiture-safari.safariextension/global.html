@@ -7,9 +7,10 @@ safari.application.addEventListener("command", performCommand, false);
 
 // // Function to perform when 'command event' is received
 function performCommand(event) {
-
+	console.log(event.command);
+	
 	// When user clicks tap this
-	if (event.command = "userClickTapThis"){
+	if (event.command == "userClickTapThis"){
 		var userInfo 	= event.userInfo;
 		console.log(userInfo);
 		safari.application.activeBrowserWindow.activeTab.page.dispatchMessage('userClickTapThis', userInfo);

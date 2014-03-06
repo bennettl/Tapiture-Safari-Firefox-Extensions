@@ -617,6 +617,8 @@
 	"file_history":
 	[
 		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-safari.safariextension/tap_browser.js",
+		"/Users/bennettlee/Desktop/Tapiture/Extensions/readme.md",
+		"/Users/bennettlee/Desktop/Tapiture/Extensions/.gitignore",
 		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-safari.safariextension/myScript.js",
 		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-safari.safariextension/global.html",
 		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/data/tap_browser.js",
@@ -741,9 +743,7 @@
 		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/one-hour-fantasy-girl/press.php",
 		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/contact.php",
 		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/about.php",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/style.css",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/gallery/css/black.css",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/css/index.css"
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/style.css"
 	],
 	"find":
 	{
@@ -761,6 +761,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"stag",
 			"tap",
 			"_ga_pushInterval",
 			"css",
@@ -887,8 +888,7 @@
 			"elastislide",
 			"gallery()",
 			"artist",
-			"Press",
-			"press"
+			"Press"
 		],
 		"highlight": true,
 		"in_selection": false,

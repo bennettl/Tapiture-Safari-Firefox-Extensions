@@ -13,7 +13,7 @@ var singleImageCallBack = 'self.on("click", function (node, data) {' +
 '});';
 // Add item to context menu only when images are selected
 cm.Item({
-    label: "Tap This",
+    label: "Tap To Tapiture",
     context: cm.SelectorContext("img"),
     contentScript: singleImageCallBack,
     contentScriptFile: [data.url("tap_browser.js")]
@@ -28,7 +28,7 @@ var pageCallBack = 'self.on("click", function (node, data) {' +
 '});';
 // Add item to context menu when the rest of the page is selected
 cm.Item({
-    label: "Tap This",
+    label: "Tap To Tapiture",
     context: cm.PageContext(),
     contentScript: pageCallBack,
     contentScriptFile: [data.url("tap_browser.js")]

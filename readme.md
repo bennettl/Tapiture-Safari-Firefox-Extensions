@@ -1,6 +1,6 @@
 #Safari and Firefox Extensions
 
-The goal of **Tapiture's Safari and Firefox Extensions** are to allow users to easily "Tap" content anywhere on the Internet. Whichever website the user visits, he can simply click "Tap This" to submit the content to Taptiure. Gone are the days when users need to copy links, visit Tapiture's website, and paste their links to submit a form. Tapping new content has never been easier.
+The goal of **Tapiture's Safari and Firefox Extensions** are to allow users to easily "Tap" content anywhere on the Internet. Whichever website the user visits, he can simply click "Tap To Tapiture" to submit the content to Taptiure. Gone are the days when users need to copy links, visit Tapiture's website, and paste their links to submit a form. Tapping new content has never been easier.
 
 ## Extension Files
 
@@ -11,7 +11,7 @@ Enough talk! Gimme the extension files!!!
 
 ## How It Works
 
-1) Right click on an **image**, then click "Tap This".
+1) Right click on an **image**, then click "Tap To Tapiture".
 
 ![Menu](http://i.imgur.com/qmpizvs.png)
 
@@ -21,7 +21,7 @@ Enough talk! Gimme the extension files!!!
 
 ###OR
 
-1) Right click **anywhere on the page**, then click "Tap This".
+1) Right click **anywhere on the page**, then click "Tap To Tapiture".
 
 ![Menu](http://i.imgur.com/qmpizvs.png)
 

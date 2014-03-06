@@ -6,8 +6,8 @@ The goal of **Tapiture Safari and Firefox Extensions** is to allow users to easi
 
 Enough talk! Where's the extension files!!!
 
-### Safari
-The Safari Extension file is located 
+Safari file is located at tapiture-safari.safariextension/tapiture-safari.safariextz
+FireFox file is Located at tapiture-firefox/tapiture-firefox.xpi
 
 ## How It Works
 
@@ -22,12 +22,12 @@ The Safari Extension file is located
 
 1) Right click anywhere on the page, then click "Tap This"
 
-![Menu](/projects/WID/repos/bl-safari-and-firefox-extension/browse/images/menu.png)
+![Menu](http://i.imgur.com/qmpizvs.png)
 
 2) An overlay will appear, select the image you want to tab
 
-![Overlay](/projects/WID/repos/bl-safari-and-firefox-extension/browse/images/overlay.png)
+![Overlay](http://i.imgur.com/O7SaxlU)
 
 3) An 
 
-![Popup](/projects/WID/repos/bl-safari-and-firefox-extension/browse/images/popup.png)
+![Popup](http://i.imgur.com/4TrSvKd)

@@ -1,0 +1,1624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"userInfo"
+			],
+			[
+				"mi",
+				"micropost"
+			],
+			[
+				"curren",
+				"current_user"
+			],
+			[
+				"signed",
+				"signed_in"
+			],
+			[
+				"redire",
+				"redirect_to"
+			],
+			[
+				"sucess",
+				"success"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"redirect",
+				"redirect_to"
+			],
+			[
+				"befo",
+				"before_action"
+			],
+			[
+				"have_",
+				"have_title"
+			],
+			[
+				"vis",
+				"visit"
+			],
+			[
+				"have",
+				"have_title"
+			],
+			[
+				"sin",
+				"sign_in"
+			],
+			[
+				"edi",
+				"edit_user_path"
+			],
+			[
+				"passwor",
+				"password_field"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"redi",
+				"redirect_to"
+			],
+			[
+				"en",
+				"encrypt"
+			],
+			[
+				"curr",
+				"current_user"
+			],
+			[
+				"cu",
+				"current_user"
+			],
+			[
+				"cook",
+				"cookies"
+			],
+			[
+				"new",
+				"new_remember_token  (function)"
+			],
+			[
+				"shou",
+				"should_not"
+			],
+			[
+				"remember",
+				"remember_token"
+			],
+			[
+				"sho",
+				"should"
+			],
+			[
+				"h1",
+				"h1>  (element)"
+			],
+			[
+				"pas",
+				"password_confirmation"
+			],
+			[
+				"sub",
+				"submit_button"
+			],
+			[
+				"fil",
+				"fill_in"
+			],
+			[
+				"sign",
+				"signup_path"
+			],
+			[
+				"mix",
+				"mix_case_email"
+			],
+			[
+				"mim",
+				"minimum"
+			],
+			[
+				"inval",
+				"invalid_user"
+			],
+			[
+				"val",
+				"valid_user"
+			],
+			[
+				"shoul",
+				"should"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"rep",
+				"respond_to"
+			],
+			[
+				"respon",
+				"respond_to"
+			],
+			[
+				"dup",
+				"duplicateUser"
+			],
+			[
+				"be",
+				"be_valid"
+			],
+			[
+				"shoud",
+				"should_not"
+			],
+			[
+				"page",
+				"page"
+			],
+			[
+				"help",
+				"help_path"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"p1",
+				"require(p1)"
+			],
+			[
+				"base",
+				"base_title"
+			],
+			[
+				"secu",
+				"secure_token"
+			],
+			[
+				"get_meta",
+				"get_meta_tags"
+			],
+			[
+				"sel",
+				"select"
+			],
+			[
+				"au",
+				"author_id"
+			],
+			[
+				"P",
+				"_POST"
+			],
+			[
+				"bio",
+				"biography  (variable)"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"auth",
+				"authors  (variable)"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"fetch",
+				"fetch_assoc"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"webkit-bord",
+				"-webkit-border-radius:   (property)"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"im",
+				"img_s"
+			],
+			[
+				"m",
+				"mysqli"
+			],
+			[
+				"DB",
+				"DB_HOST"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"backgro",
+				"background-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"mouse",
+				"mouseleave  (function)"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"flas",
+				"flashOne"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"fade",
+				"fadeIn  (function)"
+			],
+			[
+				"con",
+				"contents	.contents()"
+			],
+			[
+				"end",
+				"endSrc"
+			],
+			[
+				"com",
+				"computer"
+			],
+			[
+				"guitar",
+				"guitar"
+			],
+			[
+				"gui",
+				"guitarAnimation"
+			],
+			[
+				"transf",
+				"-webkit-transform:   (property)"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"mo",
+				"mouseover  (function)"
+			],
+			[
+				"no",
+				"normalSpeed"
+			],
+			[
+				"nor",
+				"normalTime"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"slow",
+				"slowTime"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"lef",
+				"leftcol"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"fff",
+				"ffffff"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"slideDown",
+				"slideDownReview"
+			],
+			[
+				"sli",
+				"slideDown  (function)"
+			],
+			[
+				"each",
+				"each	.each()"
+			],
+			[
+				"revew",
+				"reviewSource"
+			],
+			[
+				"reve",
+				"reviewDesc"
+			],
+			[
+				"rev",
+				"reviewSource"
+			],
+			[
+				"top",
+				"topNav"
+			],
+			[
+				"poster",
+				"poster"
+			],
+			[
+				"mrd",
+				"mrdTheme"
+			],
+			[
+				"left",
+				"leftColumn"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"rightC",
+				"rightcolumn"
+			],
+			[
+				"posterI",
+				"posterInfoHidden"
+			],
+			[
+				"po",
+				"posters"
+			],
+			[
+				"margin",
+				"margin-bottom:   (property)"
+			],
+			[
+				"first",
+				"firstProfileDesc"
+			],
+			[
+				"prof",
+				"profileDesc"
+			],
+			[
+				"profile",
+				"profileList"
+			],
+			[
+				"art",
+				"artistList"
+			],
+			[
+				"tri",
+				"trigger	trigger"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"this",
+				"This"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"fo",
+				"font"
+			],
+			[
+				"pare",
+				"parents	.parents()"
+			],
+			[
+				"remove",
+				"removeClass  (function)"
+			],
+			[
+				"th",
+				"this	$(this)"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"zin",
+				"zindex"
+			],
+			[
+				"zi",
+				"zindex"
+			],
+			[
+				"click",
+				"click  (function)"
+			],
+			[
+				"post",
+				"posterClick"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"erb",
+				"Snippet: end (ERB)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"ftp",
+				"FTPSync: Upload current file"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"sni ht",
+				"Snippet: html"
+			],
+			[
+				"snip if",
+				"Snippet: <?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"goto",
+				"Goto Documentation"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 250.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/data/tap_browser.js",
+		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/lib/main.js",
+		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/data/test.js",
+		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/lib/test.js",
+		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox/lib/tap_browser.js",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/controllers/users_controller.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/spec/models/user_spec.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/lib/tasks/sample_data.rake",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/users/_user.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/users/index.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/users/edit.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/db/migrate/20140303191344_create_microposts.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/helpers/sessions_helper.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/db/migrate/20140303014636_add_admin_to_users.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/Gemfile",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/layouts/_header.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/spec/requests/user_pages_spec.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/spec/requests/authentication_pages_spec.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/controllers/sessions_controller.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/spec/spec_helper.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/helpers/static_pages_helper.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/helpers/user_helper.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/controllers/application_controller.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/models/user.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/users/new.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/config/routes.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/layouts/application.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/assets/javascripts/application.js",
+		"/Users/bennettlee/Desktop/Tapiture/TapitureSafariExtension.safariextension/untitled.html",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/db/migrate/20140225084919_add_remember_token_to_users.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/sessions/new.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/shared/_error_messages.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/users/show.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/config/environments/production.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/static_pages/home.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/config/environments/test.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/spec/factories.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/user/show.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/controllers/user_controller.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/db/development.sqlite3",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/config/application.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/db/migrate/20140208065621_add_index_to_user_email.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/db/schema.rb",
+		"/Users/bennettlee/Desktop/Tapiture/AFNetworkTest/Podfile",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/spec/requests/static_pages_spec.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/static_pages/contact.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/static_pages/about_us.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/static_pages/help.html.erb",
+		"/Users/bennettlee/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/bennettlee/Desktop/iOS Fun/Test/Podfile",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/user/new.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/spec/support/utilities.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/helpers/application_helper.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/layouts/_footer.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/assets/stylesheets/application.css",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/example_user.rb",
+		"/Users/bennettlee/Desktop/RailsCastLight.tmTheme",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/controllers/static_pages_controller.rb",
+		"/Users/bennettlee/Library/Application Support/Sublime Text 2/Packages/User/RubyTest.sublime-settings",
+		"/Users/bennettlee/Library/Application Support/Sublime Text 2/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Users/bennettlee/Library/Application Support/Sublime Text 2/Packages/User/Terminal.sublime-settings",
+		"/Users/bennettlee/Library/Application Support/Sublime Text 2/Packages/RubyTest/Default.sublime-keymap",
+		"/Users/bennettlee/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/.git/COMMIT_EDITMSG",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/static_pages/about.html.erb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/app/views/static_pages/about.html.erc",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/config/initializers/secret_token.rb",
+		"/Users/bennettlee/Desktop/Ruby Fun/sample_app/.gitignore",
+		"/Users/bennettlee/Desktop/Tapiture/Swagger/swagger-codegen/samples/client/petstore/objc/ObjcPetstoreCodegen.scala",
+		"/Users/bennettlee/Desktop/Ruby Fun/myapp/first/Gemfile",
+		"/Users/bennettlee/Desktop/Ruby Fun/myapp/first/.git/COMMIT_EDITMSG",
+		"/Users/bennettlee/Desktop/Ruby Fun/myapp/first/README.mv",
+		"/Users/bennettlee/Desktop/Ruby Fun/myapp/first/.gitignore",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/test.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/sftp-config.json",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/lib/swagger-php/library/Swagger/Swagger.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/index.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/lib/swagger-php/library/Swagger/test.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/lib/swagger-php/library/Swagger/test,",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/lib/swagger-php/testswag.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/composer.json",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/quote.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/js/form.js",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/css/form.css",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/author.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/form.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/inspyr-api.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/constant.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/database.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/images/authors/dennis_bakke.png",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/images/authors/barrack_obama.png",
+		"/Users/bennettlee/Desktop/Projects/Bennettl/bennettl.sublime-project",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/connect.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/ajax.form.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/rest-api.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/.htaccess",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/js/autocomplete/jquery-ui-1.10.3.custom.js",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/js/jquery-1.10.2.min.js",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/form.js",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/quoteForm.php",
+		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/restapi.php",
+		"/Users/bennettlee/Desktop/Projects/Bennettl/Website/test.php",
+		"/Users/bennettlee/Desktop/Projects/Bennettl/Website/scripts/main.js",
+		"/Users/bennettlee/Desktop/Projects/Bennettl/Website/style.css",
+		"/Users/bennettlee/Desktop/Projects/Bennettl/Website/index.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/one-hour-fantasy-girl/rightcol_ohfg.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/mothers-red-dress/rightcol_mrd.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/mothers-red-dress/cast-bios.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/js/cast-bios.js",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/one-hour-fantasy-girl/cast-bios.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/js/main.js",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/css/main.css",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/mothers-red-dress/the-film.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/one-hour-fantasy-girl/the-film.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/mothers-red-dress/maintrailer.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/one-hour-fantasy-girl/maintrailer.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/images/ohfg/ohfg_bg.png",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/images/sidenav_icons.png",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/common/header.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/css/contact.css",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/one-hour-fantasy-girl/press.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/contact.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/about.php",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/style.css",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/gallery/css/black.css",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/css/index.css",
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/mothers-red-dress/thanks.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"tap",
+			"_ga_pushInterval",
+			"css",
+			"listenMessage",
+			"info",
+			"Tap Th",
+			"sign_in_user",
+			"valid",
+			"with valid information",
+			"click_button",
+			"click_butt",
+			"click_button",
+			"create",
+			"sign_in",
+			"edit_user_path",
+			"aut",
+			"before {s",
+			"signin",
+			"factory",
+			"Sign out",
+			"remember_token",
+			"girl",
+			"FactoryGir",
+			"Factory",
+			"factory",
+			"grava",
+			"errors",
+			"Home page should have base title",
+			";",
+			"'/static_pages/contact'",
+			"'/static_pages/about_us'",
+			"'/static_pages/help'",
+			"'/static_pages/home'",
+			"#999",
+			"shift+t",
+			"cmd+shift+t",
+			"command+shift+t",
+			"shift+t",
+			"command+shift",
+			"~/.rvm/bin/rvm-auto-ruby $(~/.rvm/bin/rvm gemdir | sed -e 's/@.*//' -e 's/$/@global/' )/bin/bundle exec rspec",
+			"pet",
+			"Swagger",
+			"validate",
+			"name",
+			"author",
+			"authorHi",
+			"getAutocompleteUrl",
+			"authorHidden",
+			"image_url",
+			"){",
+			"} else if (",
+			"mysqli_query($this->mysqli,",
+			"mysqli_query($mysqli,",
+			"dbc",
+			"upper",
+			"panra",
+			"panramic",
+			"border",
+			"args",
+			"autoComplete",
+			"content",
+			"validateAuthor",
+			"biogra",
+			"validateAuthor",
+			"validateQuote",
+			"_response",
+			"_cleanInputs",
+			" data-color=\"#000000\"",
+			"hover",
+			"<h3 class=\"nom line1 left clear\"> ",
+			"<p >",
+			"class=\"nom line1 serif left\"",
+			"background",
+			"contact",
+			"</tr>",
+			"<tr>",
+			"</td>",
+			"<td>",
+			"label",
+			"contact_form",
+			"backgroun",
+			"video",
+			"back",
+			"mainContainer",
+			"hey",
+			"lert",
+			"hey",
+			"span",
+			"guitar",
+			"flash",
+			"icon",
+			"images",
+			"43.660667",
+			"portfo",
+			"articleMapping",
+			"IBOutlet UILabel",
+			"weak",
+			",",
+			"back",
+			"contact",
+			"xPos",
+			"yPos",
+			"nav li",
+			"scripts",
+			"logo",
+			"fff",
+			"white",
+			"story",
+			"Her:",
+			"elastislide",
+			"carousel",
+			"gallery",
+			"sidenav",
+			"sidename",
+			"mrdTheme",
+			"14px",
+			"14p3",
+			"14px",
+			"			font-size: 14px;\n",
+			"hover",
+			"contact",
+			"backButton",
+			"#car",
+			"elastislide",
+			"gallery()",
+			"artist",
+			"Press",
+			"press"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"contact_path",
+			"about_path",
+			"help_path",
+			"root_path",
+			"$lightGray",
+			"/Users/bennettlee/.rvm/gems/ruby-2.0.0-p353@railstutorial_rails_4_0/bin/rspec",
+			":",
+			"case ",
+			"$this->$mysqli->query(",
+			"$mysqli->query(",
+			"mysqli",
+			"",
+			"<h3>",
+			"<p>",
+			"",
+			"contactForm",
+			"eventMapping",
+			"NSString",
+			"strong",
+			",\n",
+			"xPosPercent",
+			"yPosPercent",
+			"js",
+			"content",
+			"Eli:",
+			"'",
+			"#topNav",
+			"artistMovieTitle",
+			"'",
+			"\" /></a></li>",
+			"<a href=\"#\"><img src=\"",
+			"",
+			"/test/",
+			"",
+			"/test/",
+			"/test",
+			"<a href=\"#\"><img",
+			"",
+			"src=\"/test/mothers-red-dress/",
+			"'",
+			"\\'",
+			"",
+			"</li>",
+			"",
+			"<l/i>",
+			"<li>",
+			"",
+			"</li>",
+			"<li>",
+			"\\'",
+			"</div>",
+			"<div class=\"title\">",
+			"",
+			"</li>",
+			"<li>",
+			"",
+			"<div id=\"\">\n						<div class=\"name\"></div>\n						<div class=\"bio\">",
+			"</div>",
+			"<div class=\"name\">",
+			"",
+			"</b>",
+			"<b>",
+			",",
+			");\n	break;",
+			":",
+			" ",
+			"; case:",
+			"</b>",
+			"<b>",
+			">",
+			"<",
+			"quiet",
+			"</b>",
+			"<b>",
+			"[/b]",
+			"</b>",
+			"[b]",
+			"</b>",
+			"<b>",
+			"quiet",
+			"[B]",
+			"[/B]",
+			"[/b]",
+			"[b]",
+			"<b>",
+			"</b>",
+			"<b>",
+			"[B]Lesson:[/B]",
+			"Structure:[/B]",
+			"[B]Lesson",
+			"[B]Structure",
+			"[B]Approach",
+			"[/b]",
+			"[b]",
+			"\"",
+			"",
+			"$event->",
+			",",
+			"'",
+			"",
+			"'",
+			"listUrl",
+			"",
+			"pq($address)",
+			"listUrl",
+			"pq($address)->",
+			"",
+			"Url",
+			"end",
+			"status",
+			"$this->status",
+			"'",
+			"->text()",
+			"doc",
+			"->text()",
+			"",
+			"$category",
+			"$categories",
+			"$category",
+			"$fieldId",
+			"$match",
+			"$doc1",
+			"doc1",
+			"time",
+			"endTime",
+			"",
+			"->text()",
+			"$doc"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 231.0
+	},
+	"output.sftp":
+	{
+		"height": 467.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"sesion",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"session",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"sessino",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"layo",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"sess",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"helper",
+				"app/helpers/user_helper.rb"
+			],
+			[
+				"new",
+				"app/views/users/new.html.erb"
+			],
+			[
+				"ro",
+				"config/routes.rb"
+			],
+			[
+				"usersco",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"appli",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"spec",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"usercon",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"custom",
+				"app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"control",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"header",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"foo",
+				"app/views/layouts/_footer.html.erb"
+			],
+			[
+				"routs",
+				"config/routes.rb"
+			],
+			[
+				"head",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"home",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"cont",
+				"app/views/static_pages/contact.html.erb"
+			],
+			[
+				"static",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"layout",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"abo",
+				"app/views/static_pages/about_us.html.erb"
+			],
+			[
+				"helpl",
+				"app/views/static_pages/help.html.erb"
+			],
+			[
+				"swa",
+				"lib/swagger-php/library/Swagger/Swagger.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"con",
+				"constant.php"
+			],
+			[
+				"data",
+				"database.php"
+			],
+			[
+				"connec",
+				"connect.php"
+			],
+			[
+				"rest",
+				"rest-api.php"
+			],
+			[
+				"aja",
+				"ajax.form.php"
+			],
+			[
+				"cast",
+				"js/cast-bios.js"
+			],
+			[
+				"castb",
+				"one-hour-fantasy-girl/cast-bios.php"
+			],
+			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"righ",
+				"mothers-red-dress/rightcol_mrd.php"
+			],
+			[
+				"m",
+				"js/main.js"
+			],
+			[
+				"the",
+				"mothers-red-dress/the-film.php"
+			],
+			[
+				"right",
+				"one-hour-fantasy-girl/rightcol_ohfg.php"
+			],
+			[
+				"pres",
+				"one-hour-fantasy-girl/press.php"
+			],
+			[
+				"contact",
+				"css/contact.css"
+			],
+			[
+				"black",
+				"gallery/css/black.css"
+			],
+			[
+				"styl",
+				"style.css"
+			],
+			[
+				"abou",
+				"about.php"
+			],
+			[
+				"gall",
+				"one-hour-fantasy-girl/gallery.php"
+			],
+			[
+				"thanks",
+				"mothers-red-dress/thanks.php"
+			],
+			[
+				"galler",
+				"mothers-red-dress/gallery.php"
+			],
+			[
+				"watc",
+				"mothers-red-dress/watch-now/index.php"
+			],
+			[
+				"tha",
+				"mothers-red-dress/thanks.php"
+			],
+			[
+				"footer",
+				"common/footer.php"
+			],
+			[
+				"",
+				"common/header.php"
+			],
+			[
+				"poster",
+				"posters.php"
+			],
+			[
+				"tra",
+				"one-hour-fantasy-girl/trailers-and-clips.php"
+			],
+			[
+				"abp",
+				"about.php"
+			],
+			[
+				"trai",
+				"one-hour-fantasy-girl/trailers-and-clips.php"
+			],
+			[
+				"trail",
+				"mothers-red-dress/trailers-and-clips.php"
+			],
+			[
+				"tr",
+				"mothers-red-dress/trailers-and-clips.php"
+			],
+			[
+				"vid",
+				"one-hour-fantasy-girl/video.php"
+			],
+			[
+				"vide",
+				"mothers-red-dress/video.php"
+			],
+			[
+				"video",
+				"one-hour-fantasy-girl/video.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"press",
+				"mothers-red-dress/press.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"mrd",
+				"css/mrd.css"
+			],
+			[
+				"foot",
+				"common/footer.php"
+			],
+			[
+				"contac",
+				"css/contact.css"
+			],
+			[
+				"o",
+				"css/ohfg.css"
+			],
+			[
+				"pro",
+				"js/profile.js"
+			],
+			[
+				"thank",
+				"mothers-red-dress/thanks.php"
+			],
+			[
+				"rightco",
+				"one-hour-fantasy-girl/rightcol_ohfg.php"
+			],
+			[
+				"cat",
+				"one-hour-fantasy-girl/cast-bios.php"
+			],
+			[
+				"arti",
+				"artists.php"
+			],
+			[
+				"ap",
+				"about.php"
+			],
+			[
+				"thef",
+				"one-hour-fantasy-girl/the-film.php"
+			],
+			[
+				"t",
+				"one-hour-fantasy-girl/the-film.php"
+			],
+			[
+				"ar",
+				"artists.php"
+			],
+			[
+				"st",
+				"style.css"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
+				"sound",
+				"one-hour-fantasy-girl/soundtrack.php"
+			],
+			[
+				"drplayer/in",
+				"js/drplayer/index.html"
+			],
+			[
+				"dr",
+				"js/drplayer/drplayer.css"
+			],
+			[
+				"drpl",
+				"js/drplayer/drplayer.js"
+			],
+			[
+				"indexhtm",
+				"js/drplayer/index.html"
+			],
+			[
+				"maincs",
+				"css/main.css"
+			],
+			[
+				"so",
+				"mothers-red-dress/soundtrack.php"
+			],
+			[
+				"el",
+				"js/Elastislide/css/elastislide.css"
+			],
+			[
+				"demo",
+				"js/Elastislide/css/demo.css"
+			],
+			[
+				"slid",
+				"js/unslider.min.js"
+			],
+			[
+				"rig",
+				"common/rightcol_mrd.php"
+			],
+			[
+				"soundtra",
+				"mothers-red-dress/soundtrack.php"
+			],
+			[
+				"the-",
+				"one-hour-fantasy-girl/the-film.php"
+			],
+			[
+				"ress",
+				"css/press.css"
+			],
+			[
+				"thefi",
+				"mothers-red-dress/the-film.php"
+			],
+			[
+				"conta",
+				"contact.php"
+			],
+			[
+				"mains",
+				"css/main.css"
+			],
+			[
+				"about",
+				"css/about.css"
+			],
+			[
+				"a",
+				"about.php"
+			],
+			[
+				"art",
+				"artists.php"
+			],
+			[
+				"thefil",
+				"mothers-red-dress/the-film.php"
+			],
+			[
+				"index.cs",
+				"css/index.css"
+			],
+			[
+				"food",
+				"No Restrictions - Press/One Hour Fantasy Girl/One Hour Fantasy Girl - HD Trailers/OHFG-Trailer-A-H264.mov"
+			],
+			[
+				"in",
+				"css/index.css"
+			],
+			[
+				"ma",
+				"js/main.js"
+			],
+			[
+				"galleriffic",
+				"scripts/galleriffic/jush.js"
+			],
+			[
+				"soun",
+				"one-hour-fantasy-girl/soundtrack/index.php"
+			],
+			[
+				"than",
+				"mothers-red-dress/thanks.php"
+			],
+			[
+				"hea",
+				"common/header.php"
+			],
+			[
+				"prof",
+				"scripts/profile.js"
+			],
+			[
+				"rightcol_mrd",
+				"common/rightcol_mrd.php"
+			],
+			[
+				"consta",
+				"includes/constant.php"
+			],
+			[
+				"ajaxsi",
+				"public_html/ajax/ajax.signup.php"
+			],
+			[
+				"signu",
+				"public_html/signup.php"
+			],
+			[
+				"fb",
+				"classes/fb_api.php"
+			],
+			[
+				"feed",
+				"public_html/template/general/feedlist.php"
+			],
+			[
+				"feedlist",
+				"public_html/template/general/feedlist.php"
+			],
+			[
+				"event",
+				"classes/event.php"
+			],
+			[
+				"field",
+				"classes/field.php"
+			],
+			[
+				"inser",
+				"scripts/insertevents.php"
+			],
+			[
+				"templ",
+				"public_html/template.php"
+			],
+			[
+				"conn",
+				"includes/connect.php"
+			],
+			[
+				"te",
+				"public_html/test.php"
+			],
+			[
+				"fbapi",
+				"classes/fb_api.php"
+			],
+			[
+				"yelp",
+				"scrape/yelp.php"
+			],
+			[
+				"template",
+				"public_html/template.php"
+			],
+			[
+				"fbhome",
+				"public_html/fb.home.php"
+			],
+			[
+				"gprofilecs",
+				"public_html/css/gprofile.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/bennettlee/Desktop/Projects/A Pick Up A Day/apad.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 171.0,
+	"status_bar_visible": true
+}

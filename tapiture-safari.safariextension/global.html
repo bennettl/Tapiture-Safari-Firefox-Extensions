@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!-- <script type="text/javascript" src="jquery-1.10.2.min.js"></script> -->
+<script type="text/javascript">
+
+safari.application.addEventListener("command", performCommand, false);
+
+
+// // Function to perform when 'command event' is received
+function performCommand(event) {
+
+	// When user clicks tap this
+	if (event.command = "userClickTapThis"){
+		var userInfo 	= event.userInfo;
+		console.log(userInfo);
+		safari.application.activeBrowserWindow.activeTab.page.dispatchMessage('userClickTapThis', userInfo);
+	}
+}
+
+</script>

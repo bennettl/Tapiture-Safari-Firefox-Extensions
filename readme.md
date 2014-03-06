@@ -2,6 +2,12 @@
 
 The goal of **Tapiture Safari and Firefox Extensions** is to allow users to easily "tap" content across the internet. Whichever website the user visits, he can simply click "Tap This" to submit the content to Taptiure. No long will users need to copy links, visit Tapiture's website, and paste their links to submit a form. Tapping new content has never been easier.
 
+## Extension Files
+
+Enough talk! Where's the extension files!!!
+
+### Safari
+The Safari Extension file is located 
 
 ## How It Works
 
@@ -14,10 +20,14 @@ The goal of **Tapiture Safari and Firefox Extensions** is to allow users to easi
 
 ###OR
 
-1) Right Click on the Page
+1) Right click anywhere on the page, then click "Tap This"
 
-2) Select An image You want to Tap
-3) An overlay will appear, select the image you want to tab
-4) An 
+![Menu](/images/menu.png)
 
+2) An overlay will appear, select the image you want to tab
 
+![Overlay](/images/overlay.png)
+
+3) An 
+
+![Popup](/images/popup.png)

@@ -186,7 +186,7 @@ function addOverlay() {
     e.setAttribute('id', 'tapiture_js');
     e.setAttribute('type', 'text/javascript');
     e.setAttribute('charset', 'UTF-8');
-    var eSrc = (location.protocol == 'https:' ? 'https://staging.tapiture.com:8088/assets/js/tap_browser.js?ver=' + Math.random() : 'http://staging.tapiture.com:8045/assets/js/tap_browser.js?ver=' + Math.random());
+    var eSrc = (location.protocol == 'https:' ? 'https://tapiture.com/assets/js/tap_browser.min.js?ver=' + Math.random() : 'http://tapiture.com/assets/js/tap_browser.min.js?ver=' + Math.random());
     e.setAttribute('src', eSrc);
     document.body.appendChild(e);
 }
@@ -203,7 +203,7 @@ function tap_product() {
 
 function popup(url) {
 
-    window.open("http://staging.tapiture.com:8045/widget/tap?" + url, "_blank", "scrollbars=no,menubar=no,height=540,width=600,resizeable=no,toolbar=no,status=no");
+    window.open("//tapiture.com/widget/tap?" + url, "_blank", "scrollbars=no,menubar=no,height=540,width=600,resizeable=no,toolbar=no,status=no");
 
     // Track total taps
     ga_push(['tapiture._trackEvent', 'Taps Per User', ++total_taps]);

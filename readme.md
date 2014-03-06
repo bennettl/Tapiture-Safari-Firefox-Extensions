@@ -22,12 +22,12 @@ The Safari Extension file is located
 
 1) Right click anywhere on the page, then click "Tap This"
 
-![Menu](browse/images/menu.png)
+![Menu](/projects/WID/repos/bl-safari-and-firefox-extension/browse/images/menu.png)
 
 2) An overlay will appear, select the image you want to tab
 
-![Overlay](browse/images/overlay.png)
+![Overlay](/projects/WID/repos/bl-safari-and-firefox-extension/browse/images/overlay.png)
 
 3) An 
 
-![Popup](browse/images/popup.png)
+![Popup](/projects/WID/repos/bl-safari-and-firefox-extension/browse/images/popup.png)

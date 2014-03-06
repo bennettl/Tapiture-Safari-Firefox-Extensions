@@ -1,10 +1,10 @@
 #Safari and FireFox Extensions
 
-The goal of **Tapiture Safari and Firefox Extensions** is to allow users to easily "tap" content across the internet. Whichever website the user visits, he can simply click "Tap This" to submit the content to Taptiure. No long will users need to copy links, visit Tapiture's website, and paste their links to submit a form. Tapping new content has never been easier.
+The goal of **Tapiture Safari and Firefox Extensions** is to allow users to easily "Tap" content anywhere on the Internet. Whichever website the user visits, he can simply click "Tap This" to submit the content to Taptiure. Gone are the days when users need to copy links, visit Tapiture's website, and paste their links to submit a form. Tapping new content has never been easier.
 
 ## Extension Files
 
-Enough talk! Where's the extension files!!!
+Enough talk! Gimme the extension files!!!
 
 * **Safari** file is located at tapiture-safari.safariextension/tapiture-safari.safariextz
 * **FireFox** file is Located at tapiture-firefox/tapiture-firefox.xpi

@@ -9,6 +9,7 @@ require("toolbarwidget").ToolbarWidget({
     id: "tap-icon",
     label: "Tap on Tapiture",
     contentURL: data.url("favicon.png"),
+    // width: 50,
     onClick: function() {
         tabs.activeTab.attach({
             contentScriptFile: [data.url("tap_browser.js")],

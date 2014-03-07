@@ -1,11 +1,11 @@
 {
-    "name": "tapiture-firefox",
+    "name": "tapiture-firefox-extension",
     "title": "tapiture-firefox",
-    "id": "jid1-Vsv03z9uvCxQAA",
-    "description": "a basic add-on",
-    "author": "",
+    "id": "jid0-lUPopEcEr3ZFpGFCiUHsCV3lDOw@jetpack",
+    "description": "Tapiture's Firefox Extension allow users to easily \"Tap\" content anywhere on the Internet. Simply click on the toolbar icon or right click and select \"Tap To Tapiture\" to submit the content to Taptiure. Tapping new content has never been easier.",
+    "author": "Bennett Lee",
     "license": "MPL 2.0",
-    "version": "0.1",
+    "version": "2.0",
     "author": "Bennett Lee",
     "icon": "favicon.png",
     "dependencies": ["toolbarwidget"]

@@ -7,7 +7,7 @@ The goal of **Tapiture's Safari and Firefox Extensions** are to allow users to e
 Enough talk! Gimme the extension files!!!
 
 * **Safari** extension file is located at tapiture-safari.safariextension/tapiture-safari.safariextz
-* **FireFox** extension file is located at tapiture-firefox/Tapiture Firefox.xpi
+* **FireFox** extension file is located at tapiture-firefox/tapiture-firefox-extension.xpi
 
 ## How It Works
 

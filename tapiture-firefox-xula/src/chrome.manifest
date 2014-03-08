@@ -1,0 +1,5 @@
+content   tapiture-firefox                content/ contentaccessible=yes
+skin      tapiture-firefox  classic/1.0   skin/
+locale    tapiture-firefox  en-US         locale/en-US/
+
+overlay chrome://browser/content/browser.xul  chrome://tapiture-firefox/content/browserOverlay.xul

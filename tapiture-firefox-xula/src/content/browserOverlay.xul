@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://tapiture-firefox/skin/browserOverlay.css" ?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://tapiture-firefox/locale/browserOverlay.dtd">
+
+<overlay id="tapiture-firefox-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script type="application/x-javascript"
+    src="chrome://tapiture-firefox/content/tap_browser.js" />
+    <script type="application/x-javascript"
+    src="chrome://tapiture-firefox/content/browserOverlay.js" />
+
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="tapiture-firefox-string-bundle"
+          src="chrome://tapiture-firefox/locale/browserOverlay.properties" />
+    </stringbundleset>
+
+    <toolbarpalette id="BrowserToolbarPalette">
+      <!-- Toolbar Button -->
+      <toolbarbutton id="tapiture-button" 
+        class="toolbarbutton-1"
+        image="chrome://tapiture-firefox/skin/favicon.png"
+        oncommand="BL.BrowserOverlay.addOverlay();"
+        label="Tapiture" tooltiptext="Tap On Tapiture" />
+    </toolbarpalette>
+
+    <menupopup id="contentAreaContextMenu" onpopupshown="BL.BrowserOverlay.popupShowingCallBack(event);">
+      <menuseparator />
+        <!-- Context Menu Item -->
+        <menuitem id="tapiture-menuitem" 
+        label="Tap To Tapiture"
+        class="menuitem-iconic"
+        image="chrome://tapiture-firefox/skin/favicon.png"
+        oncommand="BL.BrowserOverlay.tap();"/>
+    </menupopup>
+</overlay>

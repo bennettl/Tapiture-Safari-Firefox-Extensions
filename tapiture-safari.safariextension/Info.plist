@@ -64,6 +64,8 @@
 			</array>
 		</dict>
 	</dict>
+	<key>Description</key>
+	<string>Tapiture's Safari Extension allow users to easily "Tap" content anywhere on the Internet.</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>

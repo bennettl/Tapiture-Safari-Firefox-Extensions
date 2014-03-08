@@ -70,12 +70,6 @@ BL.BrowserOverlay = {
         script.setAttribute("id", "tapBrowser");
         // Inject it into the top-level element of the document
         contentDoc.documentElement.appendChild(script);
-
-        // let jqueryScript = contentDoc.createElement("script");
-        // jqueryScript.setAttribute("type", "text/javascript");
-        // jqueryScript.setAttribute("src", directory + 'jquery-1.11.0.min.js');
-        // jqueryScript.setAttribute("id", "jqueryScript");
-        // contentDoc.documentElement.appendChild(jqueryScript);
     },
     // Check if script element exists, if it doesn't call this.injectedScript
     injectScriptIfDoesntExist: function() {

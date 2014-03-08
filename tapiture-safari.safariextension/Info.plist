@@ -56,7 +56,7 @@
 			<key>End</key>
 			<array>
 				<string>tap_browser.js</string>
-				<string>myScript.js</string>
+				<string>tapiture_injected.js</string>
 			</array>
 			<key>Start</key>
 			<array>

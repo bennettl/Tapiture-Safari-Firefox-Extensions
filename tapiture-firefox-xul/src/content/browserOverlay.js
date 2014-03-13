@@ -1,20 +1,53 @@
 /**
- * BL namespace.
+ * BLTapiture namespace.
  */
-if ("undefined" == typeof(BL)) {
-    var BL = {};
+if ("undefined" == typeof(BLTapiture)) {
+    var BLTapiture = {};
 };
+
+
+/*********** Add toolbarbutton on nav-bar on first run ***********/
+function firstRun(extensions) {
+    let extension = extensions.get(YOUR_EXTENSION_ID);
+    if (extension.firstRun) {
+        // add button here.
+        // Force toolbarbutton to be on nav-bar
+        var navbar = document.getElementById("nav-bar");
+        var newset = navbar.currentSet;
+        if (newset.indexOf("tapiture-button") == -1) {
+            if (newset.indexOf("reload-button,stop-button,") > -1) {
+                newset = newset.replace("reload-button,stop-button,", "reload-button,stop-button,tapiture-button,");
+            } else {
+                newset = newset + ",tapiture-button";
+            }
+            navbar.currentSet = newset;
+            navbar.setAttribute("currentset", newset);
+            // document.persist("nav-bar", "currentset");
+        }
+
+    }
+}
+
+if (Application.extensions)
+    firstRun(Application.extensions);
+else
+    Application.getExtensions(firstRun);
+
+/*********** End ***********/
+
+
+/*********** APPlICATION SCRIPT ***********/
 
 // Initalizes Bl.BrowserOverlay when the window loads
 window.addEventListener("load", function load(event) {
     window.removeEventListener("load", load, false); //remove listener, no longer needed
-    BL.BrowserOverlay.init();
+    BLTapiture.BrowserOverlay.init();
 }, false);
 
 /**
  * Controls the browser overlay for the Tapiture Extension.
  */
-BL.BrowserOverlay = {
+BLTapiture.BrowserOverlay = {
     /*************** Properties ***************/
     clickOnImage: false,
     imgSrc: '',
@@ -35,23 +68,8 @@ BL.BrowserOverlay = {
     },
     // When page loads, inject script if it doesn't exist already
     onPageLoad: function(aEvent) {
-        console.log('title: ', document.title);
         if (document.title != "Tapiture - Add Tap") {
-            // Force toolbarbutton to be on sidenav
-            var navbar = document.getElementById("nav-bar");
-            var newset = navbar.currentSet;
-            if (newset.indexOf("tapiture-button") == -1) {
-                if (newset.indexOf("reload-button,stop-button,") > -1) {
-                    newset = newset.replace("reload-button,stop-button,", "reload-button,stop-button,tapiture-button,");
-                } else {
-                    newset = newset + ",tapiture-button";
-                }
-                navbar.currentSet = newset;
-                navbar.setAttribute("currentset", newset);
-                // document.persist("nav-bar", "currentset");
-            }
-
-            BL.BrowserOverlay.injectScriptIfDoesntExist();
+            BLTapiture.BrowserOverlay.injectScriptIfDoesntExist();
         }
     },
     // Inject script to HTML Document
@@ -63,17 +81,23 @@ BL.BrowserOverlay = {
         let directory = file.replace(/.* -> |[^\/]+$/g, "");
         var contentDoc = gBrowser.contentDocument;
 
-        // Create the script node
+        // Create script node for tap_browswer
         let script = contentDoc.createElement("script");
         script.setAttribute("type", "text/javascript");
-        script.setAttribute("src", directory + 'tap_browser.js');
-        script.setAttribute("id", "tapBrowser");
-        // Inject it into the top-level element of the document
+        script.setAttribute("src", directory + 'tap_functions.js');
+        script.setAttribute("id", "tapFunction");
+        // Create script node for tap_browswer
+        // let scriptTapButton = contentDoc.createElement("script");
+        // scriptTapButton.setAttribute("type", "text/javascript");
+        // scriptTapButton.setAttribute("src", directory + 'tapButton.js?ver=1');
+        // scriptTapButton.setAttribute("id", "tapButton");
+        // Inject script nodes into the top-level element of the document
         contentDoc.documentElement.appendChild(script);
+        // contentDoc.documentElement.appendChild(scriptTapButton);
     },
     // Check if script element exists, if it doesn't call this.injectedScript
     injectScriptIfDoesntExist: function() {
-        var injectedScriptElement = gBrowser.contentDocument.getElementById("tapBrowser");
+        var injectedScriptElement = gBrowser.contentDocument.getElementById("tapFunction");
         // determine if script exists
         if (!injectedScriptElement) {
             this.injectScript();
@@ -81,7 +105,6 @@ BL.BrowserOverlay = {
     },
     // Run function 'addOvery()' on HTML Document
     addOverlay: function() {
-        console.log('hey');
         var code = 'addOverlay();';
         this.executeScriptOnHTML(code);
     },

@@ -187,7 +187,7 @@ function addOverlay() {
     e.setAttribute('id', 'tapiture_js');
     e.setAttribute('type', 'text/javascript');
     e.setAttribute('charset', 'UTF-8');
-    var eSrc = (location.protocol == 'https:' ? 'https://tapiture.com/assets/js/tap_browser.min.js?ver=' + Math.random() : 'http://tapiture.com/assets/js/tap_browser.min.js?ver=' + Math.random());
+    var eSrc = 'chrome://tapiture-firefox/content/tap_browser.min.js?ver=1';
     e.setAttribute('src', eSrc);
     document.body.appendChild(e);
 }

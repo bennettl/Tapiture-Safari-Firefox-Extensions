@@ -1,0 +1,22 @@
+#tapThis{
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+	font-size: 12px;
+	background: #2d547d;
+	/*padding: 7px 7px 6px 27px;*/
+    height: 28px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    opacity: 0.8;
+    cursor: pointer;
+    background: url("chrome://tapiture-firefox/skin/icon.png") no-repeat scroll 6px 6px #2D547D;
+}
+#tapThis:hover{
+    opacity: 1.0;
+}

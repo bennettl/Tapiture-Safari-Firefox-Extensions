@@ -8,7 +8,7 @@ if ("undefined" == typeof(BLTapiture)) {
 
 /*********** Add toolbarbutton on nav-bar on first run ***********/
 function firstRun(extensions) {
-    let extension = extensions.get(YOUR_EXTENSION_ID);
+    let extension = extensions.get('jid0-lUPopEcEr3ZFpGFCiUHsCV3lDOw@jetpack');
     if (extension.firstRun) {
         // add button here.
         // Force toolbarbutton to be on nav-bar
@@ -58,7 +58,6 @@ BLTapiture.BrowserOverlay = {
         if (appcontent) {
             appcontent.addEventListener("DOMContentLoaded", this.onPageLoad, true);
         }
-
         // var messagepane = document.getElementById("messagepane"); // mail
         // if (messagepane) {
         //     messagepane.addEventListener("load", function(event) {

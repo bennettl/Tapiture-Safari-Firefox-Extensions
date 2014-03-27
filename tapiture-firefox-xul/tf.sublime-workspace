@@ -523,12 +523,15 @@
 			"file": "src/content/browserOverlay.js",
 			"settings":
 			{
-				"buffer_size": 5639,
+				"buffer_size": 5654,
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"contents": "/**\n * BLTapiture namespace.\n */\nif (\"undefined\" == typeof(BLTapiture)) {\n    var BLTapiture = {};\n}\n// // Initalizes Bl.BrowserOverlay when the window loads\nwindow.onload = function() {\n    BLTapiture.TapButton.init();\n    console.log('window addEventListener');\n};\n\n/**\n * Controls the tap button for the Tapiture Extension.\n */\n\n// *** THIS IS AN INJECTED SCRIPT *** //\n\nBLTapiture.TapButton = {\n    imgSrc: '',\n    init: function() {\n        var imgs = document.getElementsByTagName(\"img\");\n        var self = this;\n        console.log('there are ' + imgs.length + 'images');\n        // Attach event lisenter to each image\n        for (var i = 0; i < imgs.length; i++) {\n            var imgWidth = imgs[i].width;\n            var imgHeight = imgs[i].height;\n            var width = '200px';\n            var height = '200px';\n\n            if (imgWidth < width && imgHeight < height) {\n                return;\n            }\n\n            console.log('past the test');\n\n            imgs[i].onmouseover = function(event) {\n                //** Hovering over imgs **/\n                // Create a div element\n                var img = event.target;\n                var parent = event.target.parentNode;\n                self.imgSrc = event.target.src;\n                console.log('image source ', self.imgSrc, self);\n                parent.appendChild(self.button());\n                parent.onmouseout = function() {\n                    // Make sure hovering over child elements doesn't register as mouseout\n\n                    //this is the original element the event handler was assigned to\n                    var e = event.toElement || event.relatedTarget;\n\n                    //check for all children levels (checking from bottom up)\n                    while (e && e.parentNode && e.parentNode != window) {\n                        if (e.parentNode == this || e == this) {\n                            if (e.preventDefault) e.preventDefault();\n                            return false;\n                        }\n                        e = e.parentNode;\n                    }\n\n                    var target = event.target;\n                    document.getElementById('tapThis').style.display = 'none';\n                };\n                parent.style.position = 'relative';\n                // parentNode.replaceChild(containerDiv, img)\n            };\n        }\n        this.initStyle();\n    },\n    // Inject CSS style\n    initStyle: function() {\n        var injectedStyleElement = document.getElementById(\"tapButtonStyle\");\n        // determine if style exists\n        if (!injectedStyleElement) {\n            // Create style node for tap button\n            var styleElement = document.createElement(\"link\");\n            styleElement.setAttribute(\"rel\", \"stylesheet\");\n            styleElement.setAttribute(\"href\", 'chrome://tapiture-firefox/skin/tapButton.css?ver=1');\n            styleElement.setAttribute(\"id\", \"tapButtonStyle\");\n            // Inject style nodes into the top-level element of the document\n            document.documentElement.appendChild(styleElement);\n        }\n    },\n    // Get DOM button\n    button: function() {\n        var tapThis;\n        // If tap this doesn't exist, create a new one\n        if (document.getElementById('tapThis')) {\n            tapThis = document.getElementById('tapThis');\n            tapThis.style.display = 'block';\n        } else {\n            tapThis = document.createElement('a');\n            tapThis.setAttribute('id', 'tapThis');\n            tapThis.innerHTML = 'Tap';\n\n            // On click event handler\n            var self = this;\n            // Event handeler for click event\n            tapThis.onclick = function() {\n                var info = [];\n                info['srcUrl'] = self.imgSrc;\n                tap(info);\n                console.log('tapThisClick', self.imgSrc);\n            };\n        }\n        return tapThis;\n    },\n};",
 			"file": "src/content/tapButton.js",
+			"file_size": 3903,
+			"file_write_time": 1394696406000000,
 			"settings":
 			{
 				"buffer_size": 3903,
@@ -785,6 +788,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"http",
+			"http:",
+			"http",
+			"http:",
+			"tapiture",
+			"https:",
+			"htt",
 			"tapiture.com",
 			"tapit",
 			"chrome:",
@@ -905,14 +915,7 @@
 			"gallery",
 			"sidenav",
 			"sidename",
-			"mrdTheme",
-			"14px",
-			"14p3",
-			"14px",
-			"			font-size: 14px;\n",
-			"hover",
-			"contact",
-			"backButton"
+			"mrdTheme"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1058,7 +1061,6 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1066,15 +1068,15 @@
 					"file": "src/content/browserOverlay.js",
 					"settings":
 					{
-						"buffer_size": 5639,
+						"buffer_size": 5654,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3394,
-								3394
+								3584,
+								3584
 							]
 						],
 						"settings":
@@ -1504,7 +1506,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 768.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1724,7 +1726,7 @@
 							"sublimelinter_wrap_find": true,
 							"synced": false,
 							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,

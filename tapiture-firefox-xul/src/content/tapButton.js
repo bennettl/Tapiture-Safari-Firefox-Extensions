@@ -21,7 +21,7 @@ BLTapiture.TapButton = {
     init: function() {
         var imgs = document.getElementsByTagName("img");
         var self = this;
-        console.log('there are ' + imgs.length + 'images');
+      //  console.log('there are ' + imgs.length + 'images');
         // Attach event lisenter to each image
         for (var i = 0; i < imgs.length; i++) {
             var imgWidth = imgs[i].width;
@@ -33,7 +33,7 @@ BLTapiture.TapButton = {
                 return;
             }
 
-            console.log('past the test');
+          //  console.log('past the test');
 
             imgs[i].onmouseover = function(event) {
                 //** Hovering over imgs **/
@@ -100,7 +100,7 @@ BLTapiture.TapButton = {
                 var info = [];
                 info['srcUrl'] = self.imgSrc;
                 tap(info);
-                console.log('tapThisClick', self.imgSrc);
+               // console.log('tapThisClick', self.imgSrc);
             };
         }
         return tapThis;

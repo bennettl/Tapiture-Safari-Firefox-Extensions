@@ -1,4 +1,4 @@
-// Tapiture Web Applet 2.0
+// Tapiture Web Applet 2.1
 // 2014 Tapiture LLC http://tapiture.com
 // JavaScript by Joe Yu(joe@tapiture.com)
 
@@ -11,7 +11,7 @@ var style, mosaic, images, videos, ga_activated = false;
 var cycle = false;
 
 // Start AJAX Library
-function $(e) {
+function findElement(e) {
     if (typeof e == 'string') e = document.getElementById(e);
     return e
 };
@@ -74,14 +74,14 @@ ajax.post = function(url, func, args) {
     ajax.send(url, func, 'POST', args)
 };
 ajax.update = function(url, elm) {
-    var e = $(elm);
+    var e = findElement(elm);
     var f = function(r) {
         e.innerHTML = r
     };
     ajax.get(url, f)
 };
 ajax.submit = function(url, elm, frm) {
-    var e = $(elm);
+    var e = findElement(elm);
     var f = function(r) {
         e.innerHTML = r
     };
@@ -112,7 +112,7 @@ function init_GA() {
         if (typeof _gat != 'undefined') {
             clearInterval(_googleInterval);
             _gaq.push(
-                ['tapiture._setAccount', 'UA-35299502-1'], ['tapiture._trackPageview'], ['tapiture._trackEvent', 'Mosaic', 'Open'], ['tapiture._trackEvent', 'Domains', document.domain]
+                ['tapiture._setAccount', 'UA-35299502-3'], ['tapiture._trackPageview'], ['tapiture._trackEvent', 'Mosaic', 'Open'], ['tapiture._trackEvent', 'Domains', document.domain]
             );
             ga_activated = true;
         }

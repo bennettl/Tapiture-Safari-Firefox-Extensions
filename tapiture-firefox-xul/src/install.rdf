@@ -6,18 +6,21 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>jid0-lUPopEcEr3ZFpGFCiUHsCV3lDOw@jetpack</em:id>
     <em:name>tapiture-firefox</em:name>
-    <em:description>Tapiture's Firefox Extension allow users to easily "Tap" content anywhere on the Internet. Simply click on the toolbar icon or right click and select "Tap To Tapiture" to submit the content to Taptiure. Tapping new content has never been easier.</em:description>
-    <em:version>2.0</em:version>
-    <em:creator>Bennett Lee</em:creator>
-    <em:homepageURL>http://www.tapiture.com</em:homepageURL>
-    <em:type>2</em:type>
+    <em:description>Tapiture's Firefox Extension allow users to easily "Tap" content anywhere on the Internet. Simply click on the toolbar icon or right click and select "Tap To Tapiture" to submit the content to Tapiture. Tapping new content has never been easier.</em:description>
+    <em:version>2.1.1</em:version>
+    <em:creator>Tapiture, Inc.</em:creator>
+    <em:developer>Bennett Lee</em:developer>
 
+    <em:homepageURL>http://www.tapiture.com</em:homepageURL>
+    <em:updateURL>https://s3-us-west-2.amazonaws.com/s3-assets.tapiture.com/TapitureWidgets/Firefox/update.rdf</em:updateURL>
+    <em:type>2</em:type>
+  <em:iconURL>chrome://tapiture-firefox/skin/icon32.png</em:iconURL>
     <!-- Mozilla Firefox -->
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>4.0</em:minVersion>
-        <em:maxVersion>10.*</em:maxVersion>
+        <em:maxVersion>14.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

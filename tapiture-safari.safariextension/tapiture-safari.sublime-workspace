@@ -523,7 +523,7 @@
 			"file": "tapiture_injected.js",
 			"settings":
 			{
-				"buffer_size": 1353,
+				"buffer_size": 1818,
 				"line_ending": "Unix"
 			}
 		}
@@ -1042,7 +1042,6 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1050,15 +1049,15 @@
 					"file": "tapiture_injected.js",
 					"settings":
 					{
-						"buffer_size": 1353,
+						"buffer_size": 1818,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								318,
-								318
+								0,
+								0
 							]
 						],
 						"settings":

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>Extension Updates</key>
+   <array>
+     <dict>
+       <key>CFBundleIdentifier</key>
+       <string>com.tapiture-safari</string>
+       <key>Developer Identifier</key>
+       <string>(MJ75HFRC5N) bennettl@usc.edu</string>
+       <key>CFBundleVersion</key>
+       <string>1</string>
+       <key>CFBundleShortVersionString</key>
+       <string>1.0</string>
+       <key>URL</key>
+       <string>Your-.safariextz-URL</string>
+     </dict>
+   </array>
+</dict>
+</plist>
+
+
+
+
+Chrome: http://developer.chrome.com/extensions/autoupdate
+Safari: https://developer.apple.com/library/safari/documentation/Tools/Conceptual/SafariExtensionGuide/UpdatingExtensions/UpdatingExtensions.html
+Firefox: https://developer.mozilla.org/en-US/Add-ons/Install_Manifests

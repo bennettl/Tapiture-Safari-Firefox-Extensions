@@ -10,6 +10,8 @@ var _ga_pending = new Array();
 var style, mosaic, images, videos, ga_activated = false;
 var cycle = false;
 
+var $ = jQuery;
+
 // Start AJAX Library
 function $(e) {
     if (typeof e == 'string') e = document.getElementById(e);

@@ -148,7 +148,7 @@ function init_UI() {
 }
 
 
-serialize = function(obj) {
+function serialize(obj) {
 
     var str = [];
     for (var p in obj) str.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));

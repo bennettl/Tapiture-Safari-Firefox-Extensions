@@ -113,7 +113,7 @@ function init_GA() {
         if (typeof _gat != 'undefined') {
             clearInterval(_googleInterval);
             _gaq.push(
-                ['tapiture._setAccount', 'UA-35299502-1'], ['tapiture._trackPageview'], ['tapiture._trackEvent', 'Mosaic', 'Open'], ['tapiture._trackEvent', 'Domains', document.domain]
+                ['tapiture._setAccount', 'UA-35299502-3'], ['tapiture._trackPageview'], ['tapiture._trackEvent', 'Mosaic', 'Open'], ['tapiture._trackEvent', 'Domains', document.domain]
             );
             ga_activated = true;
         }
@@ -213,7 +213,7 @@ function popup(url) {
 } // end popup
 
 self.port.on('message', function() {
-    console.log('message recievd');
+    //console.log('message recievd');
 });
 
 // Application Logic

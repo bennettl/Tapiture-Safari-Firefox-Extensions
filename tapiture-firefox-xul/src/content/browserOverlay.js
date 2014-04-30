@@ -80,6 +80,8 @@ BLTapiture.BrowserOverlay = {
         let directory = file.replace(/.* -> |[^\/]+$/g, "");
         var contentDoc = gBrowser.contentDocument;
 
+
+
         // Create script node for tap_browswer
         let script = contentDoc.createElement("script");
         script.setAttribute("type", "text/javascript");
@@ -92,6 +94,7 @@ BLTapiture.BrowserOverlay = {
         // scriptTapButton.setAttribute("id", "tapButton");
         // Inject script nodes into the top-level element of the document
         contentDoc.documentElement.appendChild(script);
+ 
         // contentDoc.documentElement.appendChild(scriptTapButton);
     },
     // Check if script element exists, if it doesn't call this.injectedScript

@@ -182,13 +182,13 @@ function tap(info) {
 
 // Adds overlay for multiple images
 function addOverlay() {
-    var e = window.parent.document.createElement('script');
+    var e = document.createElement('script');
     e.setAttribute('id', 'tapiture_js');
     e.setAttribute('type', 'text/javascript');
     e.setAttribute('charset', 'UTF-8');
     var eSrc = (location.protocol == 'https:' ? 'https://tapiture.com/assets/js/tap_browser.min.js?ver=' + Math.random() : 'http://tapiture.com/assets/js/tap_browser.min.js?ver=' + Math.random());
     e.setAttribute('src', eSrc);
-    window.parent.document.body.appendChild(e);
+    document.body.appendChild(e);
 }
 
 function tap_product() {

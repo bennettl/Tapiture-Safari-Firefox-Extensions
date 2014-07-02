@@ -2,9 +2,9 @@
 document.addEventListener("mousedown", rightClickCallBack, false);
 safari.self.addEventListener("message", contextMenuItemCallBack, false); // Message comes from global.html when context menu item is clicked
 
-console.log('hey');
-console.log('hey', document.title);
-console.log('wgwegwe', $("body"));
+// console.log('hey');
+// console.log('hey', document.title);
+// console.log('wgwegwe', $("body"));
 // Global variable
 var userInfo = {};
 

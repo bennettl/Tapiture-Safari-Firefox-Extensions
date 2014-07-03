@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/content/tap_browser.min.js",
-			"settings":
-			{
-				"buffer_size": 28545,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"command_palette":
@@ -624,6 +616,8 @@
 	},
 	"file_history":
 	[
+		"/Users/bennettl/Dropbox/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-firefox-xul/src/content/tap_browser.min.js",
+		"/Users/bennettl/Dropbox/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-firefox-xul/src/install.rdf",
 		"/Users/bennettl/Dropbox/Tapiture/Front-End/tapiture-frontend/.gitignore",
 		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox-xul/src/content/tap_functions.js",
 		"/Users/bennettlee/Desktop/Tapiture/Extensions/tapiture-firefox-xul/src/content/browserOverlay.js",
@@ -749,9 +743,7 @@
 		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/js/cast-bios.js",
 		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/one-hour-fantasy-girl/cast-bios.php",
 		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/js/main.js",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/css/main.css",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/mothers-red-dress/the-film.php",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/one-hour-fantasy-girl/the-film.php"
+		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/css/main.css"
 	],
 	"find":
 	{
@@ -1042,37 +1034,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/content/tap_browser.min.js",
-					"settings":
-					{
-						"buffer_size": 28545,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								28545
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 4.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

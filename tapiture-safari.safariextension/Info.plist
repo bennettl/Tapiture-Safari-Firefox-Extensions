@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Bennett Lee</string>
+	<string>Tapiture</string>
 	<key>Builder Version</key>
 	<string>9537.77.4</string>
 	<key>CFBundleDisplayName</key>
-	<string>tapiture-safari</string>
+	<string>Tapiture</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.tapiture-safari</string>
 	<key>CFBundleInfoDictionaryVersion</key>

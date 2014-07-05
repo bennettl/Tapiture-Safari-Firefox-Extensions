@@ -427,7 +427,10 @@ function addOverlay(){
             image['page_url']   = document.location;
             image['type']       = "image";
             image['alt']        = images[i].alt;
-            image['keywords']      = g_keywords; // every tap will have the same keywords
+            // Don't set keywords if its undefined or false
+            if (g_keywords){
+                image['keywords']      = g_keywords; // every tap will have the same keywords
+            }
 
             // Title Logic
             if (images[i].title !== undefined) image['img_title'] = images[i].title;
@@ -457,7 +460,10 @@ function addOverlay(){
             video['title']          = document.title;
             video['type']           = "video";
             video['metadataUrl']    = data.metadataUrl;
-            image['keywords']       = g_keywords; // every video will have the same keywords
+            // Don't set keywords if its undefined or false
+            if (g_keywords){
+                image['keywords']       = g_keywords; // every video will have the same keywords
+            }
 
             url = serialize(video);
             popup(url);

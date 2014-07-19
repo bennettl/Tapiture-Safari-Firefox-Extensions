@@ -10,6 +10,7 @@ if ("undefined" == typeof(BLTapiture)) {
 function firstRun(extensions) {
     let extension = extensions.get('jid0-lUPopEcEr3ZFpGFCiUHsCV3lDOw@jetpack');
     if (extension.firstRun) {
+
         // add button here.
         // Force toolbarbutton to be on nav-bar
         var navbar = document.getElementById("nav-bar");
@@ -87,6 +88,18 @@ BLTapiture.BrowserOverlay = {
         script.setAttribute("type", "text/javascript");
         script.setAttribute("src", directory + 'tap_functions.js');
         script.setAttribute("id", "tapFunction");
+
+        // Get the preferences and store it as an data of tapFunction.js file
+        //  http://stackoverflow.com/questions/3796084/about-config-preferences-and-js
+        // Get the "extensions.myext." branch
+        var prefs = Components.classes["@mozilla.org/preferences-service;1"]
+                            .getService(Components.interfaces.nsIPrefService);
+        prefs = prefs.getBranch("extensions.tapiture-firefox.");
+        // prefs is an nsIPrefBranch.
+        // Look in the above section for examples of getting one.
+        var value = prefs.getBoolPref("tapItButtonEnable"); // get a pref (accessibility.typeaheadfind)
+        script.dataset.tapButtonEnable = "" + value;
+
         // Create script node for tap_browswer
         // let scriptTapButton = contentDoc.createElement("script");
         // scriptTapButton.setAttribute("type", "text/javascript");

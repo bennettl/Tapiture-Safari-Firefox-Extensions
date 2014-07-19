@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"min",
+				"min_dimension"
+			],
+			[
+				"tapit",
+				"tapItButn"
+			],
+			[
+				"tapi",
+				"tapItBtnLeft"
+			],
+			[
+				"pos",
+				"positionTop"
+			],
+			[
+				"img",
+				"imgSrc"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"wrap",
+				"wrapper_HTML"
+			],
+			[
+				"sr",
+				"srcUrl"
+			],
+			[
 				"key",
 				"keywords"
 			],
@@ -408,10 +448,6 @@
 				"leftcol"
 			],
 			[
-				"padding",
-				"padding-left"
-			],
-			[
 				"fff",
 				"ffffff"
 			],
@@ -478,47 +514,35 @@
 			[
 				"margin",
 				"margin-bottom:   (property)"
-			],
-			[
-				"first",
-				"firstProfileDesc"
-			],
-			[
-				"prof",
-				"profileDesc"
-			],
-			[
-				"profile",
-				"profileList"
-			],
-			[
-				"art",
-				"artistList"
-			],
-			[
-				"tri",
-				"trigger	trigger"
-			],
-			[
-				"background",
-				"background"
-			],
-			[
-				"this",
-				"This"
-			],
-			[
-				"border-r",
-				"border-right"
-			],
-			[
-				"fo",
-				"font"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/content/tap_functions.js",
+			"settings":
+			{
+				"buffer_size": 9594,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/content/browserOverlay.js",
+			"settings":
+			{
+				"buffer_size": 6354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/content/options.xul",
+			"settings":
+			{
+				"buffer_size": 289,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"command_palette":
@@ -616,6 +640,14 @@
 	},
 	"file_history":
 	[
+		"/Users/bennettl/Desktop/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-firefox-xul/src/defaults/preferences/tapiture-firefox.js",
+		"/Users/bennettl/Desktop/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-firefox-xul/src/content/options.xul",
+		"/Users/bennettl/Desktop/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-safari.safariextension/tapiture.css",
+		"/Users/bennettl/Desktop/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-firefox-xul/src/skin/browserOverlay.css",
+		"/Users/bennettl/Desktop/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-firefox-xul/src/install.rdf",
+		"/Users/bennettl/Desktop/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-firefox-xul/src/bootstrap.js",
+		"/Users/bennettl/Desktop/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-firefox-xul/src/content/bootstrap.js",
+		"/Users/bennettl/Desktop/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-firefox-xul/src/content/tap_browser.min.js",
 		"/Users/bennettl/Dropbox/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-firefox-xul/src/content/tap_browser.min.js",
 		"/Users/bennettl/Dropbox/Tapiture/Widgets/bl-safari-and-firefox-extension/tapiture-firefox-xul/src/install.rdf",
 		"/Users/bennettl/Dropbox/Tapiture/Front-End/tapiture-frontend/.gitignore",
@@ -735,15 +767,7 @@
 		"/Users/bennettlee/Desktop/Projects/Inspyr/Website/restapi.php",
 		"/Users/bennettlee/Desktop/Projects/Bennettl/Website/test.php",
 		"/Users/bennettlee/Desktop/Projects/Bennettl/Website/scripts/main.js",
-		"/Users/bennettlee/Desktop/Projects/Bennettl/Website/style.css",
-		"/Users/bennettlee/Desktop/Projects/Bennettl/Website/index.php",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/one-hour-fantasy-girl/rightcol_ohfg.php",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/mothers-red-dress/rightcol_mrd.php",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/mothers-red-dress/cast-bios.php",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/js/cast-bios.js",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/one-hour-fantasy-girl/cast-bios.php",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/js/main.js",
-		"/Users/bennettlee/Desktop/Projects/No Restrictions Ent/Website/test/css/main.css"
+		"/Users/bennettlee/Desktop/Projects/Bennettl/Website/style.css"
 	],
 	"find":
 	{
@@ -754,6 +778,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -761,6 +786,22 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"tapButton",
+			"jQuer",
+			"extension",
+			"tap(",
+			"popup",
+			"tap_functions",
+			"tapiture_functions",
+			"tapItButn",
+			"keywords",
+			"init_GA",
+			"init_UI",
+			"toString",
+			"find_image",
+			"append_object",
+			"tap(",
+			"tap",
 			"socket",
 			"popup",
 			"keywords",
@@ -872,23 +913,7 @@
 			"background",
 			"contact",
 			"</tr>",
-			"<tr>",
-			"</td>",
-			"<td>",
-			"label",
-			"contact_form",
-			"backgroun",
-			"video",
-			"back",
-			"mainContainer",
-			"hey",
-			"lert",
-			"hey",
-			"span",
-			"guitar",
-			"flash",
-			"icon",
-			"images"
+			"<tr>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1034,8 +1059,358 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/content/tap_functions.js",
+					"settings":
+					{
+						"buffer_size": 9594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9466,
+								9475
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/content/browserOverlay.js",
+					"settings":
+					{
+						"buffer_size": 6354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3792,
+								3792
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1113.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/content/options.xul",
+					"settings":
+					{
+						"buffer_size": 289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1088,6 +1463,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"options",
+				"content/options.xul"
+			],
 			[
 				"ses",
 				"app/helpers/sessions_helper.rb"
@@ -1595,10 +1974,6 @@
 			[
 				"ajaxsi",
 				"public_html/ajax/ajax.signup.php"
-			],
-			[
-				"signu",
-				"public_html/signup.php"
 			]
 		],
 		"width": 0.0

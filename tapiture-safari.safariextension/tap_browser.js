@@ -100,63 +100,10 @@ function addOverlay(){
         };
         // End AJAX Library
 
-        // Google Analytics
-        function init_GA() {
-
-            // var _googleInterval;
-
-            // // Does tracking exist on page
-            // function addGoogleTracking() {
-            //     if (typeof _gat != 'undefined') {
-            //         activateGoogle();
-            //     } else {
-            //         var ga = document.createElement('script');
-            //         ga.type = 'text/javascript';
-            //         ga.src = 'https://www.google-analytics.com/ga.js';
-            //         document.body.appendChild(ga);
-            //         _googleInterval = setInterval(activateGoogle, 250);
-            //     }
-            // }
-
-            // // Push Pageview
-            // function activateGoogle() {
-            //     if (typeof _gat != 'undefined') {
-            //         clearInterval(_googleInterval);
-            //         _gaq.push(
-            //             ['tapiture._setAccount', 'UA-35299502-1'], ['tapiture._trackPageview'], ['tapiture._trackEvent', 'Mosaic', 'Open'], ['tapiture._trackEvent', 'Domains', document.domain]
-            //         );
-            //         ga_activated = true;
-            //     }
-            // }
-
-            // addGoogleTracking();
-
-        }
-
-        // Validate _gaq is loaded before you try pushing
-        function ga_push(input) {
-
-            // if (typeof(input) != 'undefined') _ga_pending[_ga_pending.length] = input;
-
-            // if (ga_activated == true) {
-
-            //     if (_ga_pending.length == 0) return;
-            //     for (var i in _ga_pending) {
-            //         _gaq.push(_ga_pending[i]); // Push
-            //     }
-            //     _ga_pending = new Array();
-
-            // } else {
-            //     ga_activated = setTimeout(ga_push, 250);
-            // }
-
-        }
+        
 
         // Create client side interface
         function init_UI() {
-
-            init_GA();
-
             // Scroll to 0,0
             // Some sites overrode window for some reason.
             if (typeof window.scroll == 'function') window.scroll(0, 0);
@@ -305,7 +252,7 @@ function addOverlay(){
             }
 
             // Track amount of images found
-            ga_push(['tapiture._trackEvent', 'Content Count', 'Images', images_used.length.toString()]);
+            //ga_push(['tapiture._trackEvent', 'Content Count', 'Images', images_used.length.toString()]);
 
         }
 
@@ -342,7 +289,7 @@ function addOverlay(){
             }
 
             // Track amount of images found
-            ga_push(['tapiture._trackEvent', 'Content Count', 'Images', images_used.length.toString()]);
+            //ga_push(['tapiture._trackEvent', 'Content Count', 'Images', images_used.length.toString()]);
 
         }
 
@@ -469,7 +416,7 @@ function addOverlay(){
             popup(url);
 
             // Track Tap
-            ga_push(['tapiture._trackEvent', 'Tap', 'Video', videos[i].oembed]);
+            // ga_push(['tapiture._trackEvent', 'Tap', 'Video', videos[i].oembed]);
 
         } // end tap video
 
@@ -479,7 +426,7 @@ function addOverlay(){
             popup(url);
 
             // Track Tap
-            ga_push(['tapiture._trackEvent', 'Tap', 'Product', document.location]);
+            // ga_push(['tapiture._trackEvent', 'Tap', 'Product', document.location]);
 
         } // end tap product
 
@@ -489,7 +436,7 @@ function addOverlay(){
             window.open(tapitureHost + "/widget/tap?" + url, "_blank", "scrollbars=no,menubar=no,height=540,width=600,resizeable=no,toolbar=no,status=no");
 
             // Track total taps
-            ga_push(['tapiture._trackEvent', 'Taps Per User', ++total_taps]);
+            // ga_push(['tapiture._trackEvent', 'Taps Per User', ++total_taps]);
 
         } // end popup
 

@@ -4,6 +4,18 @@
 
 safari.application.addEventListener("command", performCommand, false);
 
+safari.application.addEventListener("message", waitForMessage, false);
+
+function waitForMessage(event){
+	console.log('wait for message');
+	if (event.name = "tapiture_injected_loaded"){
+		safari.application.activeBrowserWindow.activeTab.page.dispatchMessage('tapItButtonEnable', safari.extension.settings.tapItButtonEnable);
+	}
+
+}
+
+
+console.log(safari.extension.settings.tapItButtonEnable);
 
 // // Function to perform when 'command event' is received
 function performCommand(event) {

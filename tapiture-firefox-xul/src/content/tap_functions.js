@@ -2,15 +2,13 @@
 // 2014 Tapiture LLC http://tapiture.com
 // JavaScript by Joe Yu(joe@tapiture.com)
 
-
+// INJECTED SCRIPT
 var vers = "2.1";
 var total_taps = 0;
 var _ga_pushInterval;
 var _ga_pending = new Array();
 var style, mosaic, images, videos, ga_activated = false;
 var cycle = false;
-
-var $ = jQuery;
 
 // Start AJAX Library
 function findElement(e) {
@@ -158,13 +156,12 @@ serialize = function(obj) {
 }
 
 function tap(info) {
+    // Image attributes
     var image = new Array();
-
-    image['url'] = info.srcUrl;
-    image['title'] = document.title;
-    image['page_url'] = document.location;
-    image['type'] = "image";
-
+    image['url']        = info.srcUrl;
+    image['title']      = document.title;
+    image['page_url']   = document.location;
+    image['type']       = "image";
 
     // Title Logic
     //if(images[i].title !== undefined) image['img_title'] = images[i].title;
@@ -214,5 +211,101 @@ function popup(url) {
 } // end popup
 
 
+// Initialize tapit btn
+function init_tapitBtn(){
+    window.onload = function(){
+
+        if (!window.jQuery) { 
+            // Inject jQuery Library file in down
+            var jQueryLib = document.createElement('script');
+            jQueryLib.setAttribute('id', 'jquery_js');
+            jQueryLib.setAttribute('type', 'text/javascript');
+            jQueryLib.setAttribute('charset', 'UTF-8');
+            var jQuerySrc = 'http://code.jquery.com/jquery-1.9.0.js';
+            jQueryLib.setAttribute('src', jQuerySrc);
+            document.getElementsByTagName("head")[0].appendChild(jQueryLib);
+        }
+       
+        // Inject stylesheet in dom
+        var stylesheet = document.createElement("link");
+        stylesheet.setAttribute('id', 'tapiture_css');
+        stylesheet.setAttribute("rel", "stylesheet");
+        stylesheet.setAttribute("type", "text/css");
+        stylesheet.setAttribute("href", "chrome://tapiture-firefox/skin/browserOverlay.css");
+        document.getElementsByTagName("head")[0].appendChild(stylesheet);
+    };
+        
+     // Attach event handlers to hover event
+    $(document).ready(function(){
+        // Mouse enter images or elements with background images , set tapItBtn
+        $("body").on('mouseenter', 'img, [style*="background-image"]', function(){
+
+            // Grab the src url differnly if its an image or tab
+            var imgSrc          = '';
+            var width           = $(this).css('width');
+            var height          = $(this).css('height');
+            var left            = $(this).offset().left;
+            var top             = $(this).offset().top;
+            // Restrictions on image size
+            var min_dimension   = 150;
+            var max_dimension   = 2000;
+            // Image size is outside of min-max boundaries, no go
+            if (parseInt(height) < min_dimension || parseInt(width) < min_dimension || parseInt(height) > max_dimension || parseInt(width) > max_dimension){
+                return;
+            }
+
+            // Set imgSrc differently depending if hover over eleemnt is IMG or DIV/I witha background image
+            if ($(this).prop('tagName') == "IMG"){
+                imgSrc = $(this).attr("src");
+            } else{
+                imgSrc = $(this).css('background-image');
+                imgSrc = imgSrc.replace('url("','').replace('")','');
+            }
+
+            //  Reuse tapItBtn if one exists
+            var tapItBtn        = ($("#tapItBtn").length > 0 ) ? $("#tapItBtn") : $('<img id="tapItBtn" src="chrome://tapiture-firefox/skin/tapitbutton.png" />');
+            // Set properties
+            var tapItBtnLeft    = (left + 8 ) + 'px';
+            var tapItBtnTop     = (top + 8)+ 'px';
+            tapItBtn.data('imgSrc', imgSrc);
+            tapItBtn.css( {left: tapItBtnLeft, top: tapItBtnTop } );
+
+            // If tapItBtn exist, show, else append
+            if ($("#tapItBtn").length > 0){
+                tapItBtn.show();
+            } else{
+                $("body").append(tapItBtn);
+            }
+            // $(this).wrap(wrapper_HTML);
+            // tapItBtn.insertAfter($(this));
+        });
+
+        // Mouse leaves imgs or elements with background image, hide tapItBtn
+        $("body").on('mouseleave', 'img, [style*="background-image"]', function(e){
+            // console.log(e.relatedTarget);
+            console.log(e.relatedTarget.id);
+            if (e.relatedTarget.id != 'tapItBtn'){
+                $("#tapItBtn").hide();           
+            }
+        });
+
+        // Mouse clicks, show tap popul
+        $("body").on('click', '#tapItBtn', function(){
+            var info = { srcUrl: $(this).data('imgSrc') };
+            tap(info);
+        });
+    });
+}
+
 // Application Logic
 init_UI(); // Create Mosaic
+// Only initialize tap it button if we're not on Tapiture website and it's enable from the preferences pane
+if ((document.URL.indexOf("tapiture.com") == -1) && (document.getElementById("tapFunction").dataset.tapButtonEnable == "true")){
+    console.log('ITS ENABLED');
+    init_tapitBtn();
+} else{
+    console.log('NOT ENABLED');
+}
+
+
+  

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting type="bool" pref="extensions.tapiture-firefox.tapItButtonEnable" title="Enable Tap It Button" desc="Tap It button will appear on top left of every image upon hovering." />
+</vbox>

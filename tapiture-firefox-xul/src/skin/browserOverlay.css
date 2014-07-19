@@ -1,1 +1,11 @@
-
+#tapItBtn{
+	position: absolute;
+	width: 75px; 
+	height: 29px;
+	cursor: pointer;
+	opacity: 0.8;
+	z-index: 8675319;
+}
+#tapItBtn:hover{
+	opacity: 1.0;
+}

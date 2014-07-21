@@ -6,16 +6,20 @@ safari.application.addEventListener("command", performCommand, false);
 
 safari.application.addEventListener("message", waitForMessage, false);
 
+// Wait for messages from injected script
 function waitForMessage(event){
-	console.log('wait for message');
-	if (event.name = "tapiture_injected_loaded"){
-		safari.application.activeBrowserWindow.activeTab.page.dispatchMessage('tapItButtonEnable', safari.extension.settings.tapItButtonEnable);
+	console.log('wait for message', event.name);
+	// When the injected script is loaded, send a message back on the wheather tapItButtonEnable is true/false
+	if (event.name == "tapiture_injected_loaded"){
+		safari.application.activeBrowserWindow.activeTab.page.dispatchMessage('tapItButtonEnable',  safari.extension.settings.tapItButtonEnable);
+	} else if (event.name == "userClickTapThis"){
+		// Injected script sends back message 'userClickTapThis' along with the information regarding the image
+		var url = event.message;
+		popup(url);
 	}
 
 }
 
-
-console.log(safari.extension.settings.tapItButtonEnable);
 
 // // Function to perform when 'command event' is received
 function performCommand(event) {
@@ -23,10 +27,22 @@ function performCommand(event) {
 	
 	// When user clicks tap this
 	if (event.command == "userClickTapThis"){
-		var userInfo 	= event.userInfo;
-		console.log(userInfo);
-		safari.application.activeBrowserWindow.activeTab.page.dispatchMessage('userClickTapThis', userInfo);
+		safari.application.activeBrowserWindow.activeTab.page.dispatchMessage('userClickTapThis', '');
 	}
+}
+
+
+/***************** SINGLE TAP FUNCTIONALITY ****************/
+var tapitureHost            = 'http://tapiture.com';
+var tapitureHostSecure      = 'https://tapiture.com';
+
+function popup(url) {
+
+    console.log('url is ' + typeof safari.application.activeBrowserWindow.activeTab);
+    safari.application.openBrowserWindow("scrollbars=no,menubar=no,height=540,width=600,resizeable=no,toolbar=no,status=no");
+    
+    safari.application.activeBrowserWindow.activeTab.url = tapitureHost + "/widget/tap?" + url;
+
 }
 
 </script>

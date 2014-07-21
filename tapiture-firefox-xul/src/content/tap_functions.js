@@ -238,7 +238,8 @@ function init_tapitBtn(){
      // Attach event handlers to hover event
     $(document).ready(function(){
         // Mouse enter images or elements with background images , set tapItBtn
-        $("body").on('mouseenter', 'img, [style*="background-image"]', function(){
+        // [style*="background-image"]
+        $("body").on('mouseenter', 'img', function(){
 
             // Grab the src url differnly if its an image or tab
             var imgSrc          = '';
@@ -281,7 +282,8 @@ function init_tapitBtn(){
         });
 
         // Mouse leaves imgs or elements with background image, hide tapItBtn
-        $("body").on('mouseleave', 'img, [style*="background-image"]', function(e){
+        // [style*="background-image"]
+        $("body").on('mouseleave', 'img', function(e){
             // console.log(e.relatedTarget);
             console.log(e.relatedTarget.id);
             if (e.relatedTarget.id != 'tapItBtn'){

@@ -1,0 +1,1 @@
+pref('extensions.tapiture-firefox.tapItButtonEnable', true);

@@ -1,4 +1,5 @@
 /***************** SAFARI CLICK EVENTS ****************/
+// Every iframe is listening to this event. Only add overlay to the main document, not in iframes
 if (window.top === window) { // inject only once!
     document.addEventListener("mousedown", rightClickCallBack, false);
     safari.self.addEventListener("message", messageCallBack, false); // Message comes from global.html when context menu item is clicked
@@ -22,40 +23,37 @@ if (window.top === window) { // inject only once!
             // console.log('user right click source', imageSrc);
             // console.log("user right clicked " + userInfo);
             // Send userInfo to global.html
-            safari.self.tab.setContextMenuEventUserInfo(event, 'userInfo');
+            safari.self.tab.setContextMenuEventUserInfo(event, '');
         }
     }
 
     // Listen for message from global.html, 
     // If the user clicked on a single image, call tap, else call addOverlay();
     function messageCallBack(msgEvent) {
-        if (msgEvent.name == "userClickTapThis") {
-            if (userInfo.clickOnImage && userInfo.srcUrl) {
-                // For iframes, userInfo will still contain srcUrl
-                // Since every iframe is listening to this event, multiple taps can pop up
-                // Every iframe is listening to this event. Only add overlay to the main document, not in iframes
-                if (window.top === window) {
-                    tap(userInfo);
-                    userInfo = [];
+       if (window.top === window) {
+            if (msgEvent.name == "userClickTapThis") {
+                if (userInfo.clickOnImage && userInfo.srcUrl) {
+                   tap(userInfo, true); 
+                    userInfo = {};
+                } else if (!userInfo.clickOnImage){
+                    // Every iframe is listening to this event. Only add overlay to the main document, not in iframes
+                        addOverlay();
                 }
-            } else if (!userInfo.clickOnImage){
-                // Every iframe is listening to this event. Only add overlay to the main document, not in iframes
-                if (window.top === window) {
-                    addOverlay();
+            } else if (msgEvent.name == "tapItButtonEnable"){
+                // Listen for the callback here, global HTML will tell us whether or not in settings, user has enable 
+                var tapItButtonEnable =  msgEvent.message;
+                // Dont initialize tap button if we're on a Tapiture website
+                if ((tapItButtonEnable == true) && (document.URL.indexOf("tapiture.com") == -1)){
+                    init_tapitBtn();
                 }
-            }
-        } else if (msgEvent.name == "tapItButtonEnable"){
-            // Listen for the callback here, global HTML will tell us whether or not in settings, user has enable 
-            var tapItButtonEnable =  msgEvent.message;
-            // Dont initialize tap button if we're on a Tapiture website
-            if ((tapItButtonEnable == true) && (document.URL.indexOf("tapiture.com") == -1)){
-                init_tapitBtn();
             }
         }
     }
 
-    var tapitureHost = 'http://tapiture.com';
-    var tapitureHostSecure = 'https://tapiture.com';
+    /***************** SINGLE TAP FUNCTIONALITY ****************/
+
+    var tapitureHost            = 'http://tapiture.com';
+    var tapitureHostSecure      = 'https://tapiture.com';
 
     var serialize = function(obj) {
         var str = [];
@@ -63,7 +61,7 @@ if (window.top === window) { // inject only once!
         return str.join("&");
     };
 
-    function tap(info) {
+    function tap(info, global) {
         // Image attributes
         var image           = new Array();
         image['url']        = info.srcUrl;
@@ -71,10 +69,16 @@ if (window.top === window) { // inject only once!
         image['page_url']   = document.location;
         image['type']       = "image";
         url                 = serialize(image);
-        popup(url);
-        // Track Tap
 
-    } // end tap
+        // If global is true, let global.html to open the popup instead
+        // if (global){
+            // Send a message back to global.html so it can display a pop up (only way to bypass popups)
+            // safari.self.tab.dispatchMessage("userClickTapThis", url);
+        // } else{
+            popup(url);
+        // }
+        // Track Tap
+    }
 
     function tap_video(data) {
         var video               = new Array();
@@ -86,16 +90,14 @@ if (window.top === window) { // inject only once!
         if (g_keywords){
             image['keywords']       = g_keywords; // every video will have the same keywords
         }
-
-        url = serialize(video);
+        url                     = serialize(video);
         popup(url);
-
         // Track Tap
         // ga_push(['tapiture._trackEvent', 'Tap', 'Video', videos[i].oembed]);
-
     }
 
     function popup(url) {
+        // console.log('url is ' + url);
         window.open(tapitureHost + "/widget/tap?" + url, "_blank", "scrollbars=no,menubar=no,height=540,width=600,resizeable=no,toolbar=no,status=no");
         // var total = tapitureHost + "/widget/tap?" + url;
         // console.log("popul url", total);
@@ -123,7 +125,8 @@ if (window.top === window) { // inject only once!
          // Attach event handlers to hover event
         $(document).ready(function(){
             // Mouse enter images or elements with background images , set tapItBtn
-            $("body").on('mouseenter', 'img, [style*="background-image"]', function(){
+            // [style*="background-image"]
+            $("body").on('mouseenter', 'img', function(){
 
                 // Grab the src url differnly if its an image or tab
                 var imgSrc          = '';
@@ -166,7 +169,8 @@ if (window.top === window) { // inject only once!
             });
 
             // Mouse leaves imgs or elements with background image, hide tapItBtn
-            $("body").on('mouseleave', 'img, [style*="background-image"]', function(e){
+            // [style*="background-image"]
+            $("body").on('mouseleave', 'img', function(e){
                 // console.log(e.relatedTarget);
                 // console.log(e.relatedTarget.id);
                 if (e.relatedTarget.id != 'tapItBtn'){
@@ -177,7 +181,7 @@ if (window.top === window) { // inject only once!
             // Mouse clicks, show tap popul
             $("body").on('click', '#tapItBtn', function(){
                 var info = { srcUrl: $(this).data('imgSrc') };
-                tap(info);
+                tap(info, false); // open the popup ourserlves
             });
         });
     }

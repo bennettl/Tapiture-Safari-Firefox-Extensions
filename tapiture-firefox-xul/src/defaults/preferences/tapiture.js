@@ -1,1 +1,0 @@
-pref('extensions.tapiture.tapItButtonEnable', true);

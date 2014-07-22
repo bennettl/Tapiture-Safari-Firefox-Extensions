@@ -13,16 +13,16 @@ var cycle = false;
 // Start AJAX Library
 function findElement(e) {
     if (typeof e == 'string') e = document.getElementById(e);
-    return e
+    return e;
 };
 
 function collect(a, f) {
     var n = [];
     for (var i = 0; i < a.length; i++) {
         var v = f(a[i]);
-        if (v != null) n.push(v)
+        if (v != null) n.push(v);
     }
-    return n
+    return n;
 };
 
 ajax = {};
@@ -153,7 +153,7 @@ serialize = function(obj) {
     for (var p in obj) str.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));
     return str.join("&");
 
-}
+};
 
 function tap(info) {
     // Image attributes
@@ -287,7 +287,7 @@ function init_tapitBtn(){
             // console.log(e.relatedTarget);
             console.log(e.relatedTarget.id);
             if (e.relatedTarget.id != 'tapItBtn'){
-                $("#tapItBtn").hide();           
+                $("#tapItBtn").hide();          
             }
         });
 
@@ -302,7 +302,7 @@ function init_tapitBtn(){
 // Application Logic
 init_UI(); // Create Mosaic
 // Only initialize tap it button if we're not on Tapiture website and it's enable from the preferences pane
-if ((document.URL.indexOf("tapiture.com") == -1) && (document.getElementById("tapFunction").dataset.tapButtonEnable == "true")){
+if ((document.URL.indexOf("tapiture.com") == -1) && (document.getElementById("tapFunction").dataset.tapButtonDisabled == "false")){
     console.log('ITS ENABLED');
     init_tapitBtn();
 } else{

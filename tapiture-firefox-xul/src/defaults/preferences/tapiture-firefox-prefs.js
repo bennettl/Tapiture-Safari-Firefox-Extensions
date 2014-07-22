@@ -1,1 +1,1 @@
-pref('extensions.tapiture-firefox.tapItButtonEnable', true);
+pref('extensions.tapiture-firefox.tapButtonDisabled', false);

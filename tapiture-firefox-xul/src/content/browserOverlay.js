@@ -92,13 +92,21 @@ BLTapiture.BrowserOverlay = {
         // Get the preferences and store it as an data of tapFunction.js file
         //  http://stackoverflow.com/questions/3796084/about-config-preferences-and-js
         // Get the "extensions.myext." branch
-        var prefs = Components.classes["@mozilla.org/preferences-service;1"]
-                            .getService(Components.interfaces.nsIPrefService);
-        prefs = prefs.getBranch("extensions.tapiture-firefox.");
-        // prefs is an nsIPrefBranch.
-        // Look in the above section for examples of getting one.
-        var value = prefs.getBoolPref("tapItButtonEnable"); // get a pref (accessibility.typeaheadfind)
-        script.dataset.tapButtonEnable = "" + value;
+        // Might through error if preferences is not found, default to false
+        try {
+          var prefs = Components.classes["@mozilla.org/preferences-service;1"]
+                        .getService(Components.interfaces.nsIPrefService);
+            prefs = prefs.getBranch("extensions.tapiture-firefox.");
+            // prefs is an nsIPrefBranch.
+            // Look in the above section for examples of getting one.
+            var value = prefs.getBoolPref("tapButtonDisabled"); // get a pref (accessibility.typeaheadfind)
+        } catch (error){
+            var value = "false";
+        }   
+      
+        console.log("VALUE IS");
+        console.log(value);
+        script.dataset.tapButtonDisabled = "" + value;
 
         // Create script node for tap_browswer
         // let scriptTapButton = contentDoc.createElement("script");

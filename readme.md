@@ -1,4 +1,4 @@
-#Safari and Firefox Extensions
+#Tapiture Safari and Firefox Extensions
 #### By Bennett Lee
 
 ### Demo
@@ -19,15 +19,15 @@ Enough talk! Gimme the extension files!!!
 ### How It Works
 
 #### Toolbar
-1) Click on the Tapiture Icon on The Navigation Bar
-2) An overlay will appear. Select the image you want to Tap.
+1. Click on the Tapiture Icon on The Navigation Bar
+2. An overlay will appear. Select the image you want to Tap.
 
 #### Menu
-1) Right click on an **image**, then click "Tap To Tapiture".
-2) A popup form will appear, enter the necesssary information and click "Tap".
+1. Right click on an **image**, then click "Tap To Tapiture".
+2. A popup form will appear, enter the necesssary information and click "Tap".
 
 OR
 
-1) Right click **anywhere on the page**, then click "Tap To Tapiture".
-2) An overlay will appear. Select the image you want to Tap.
-3) A popup form will appear. Enter the necesssary information and click "Tap".
+1. Right click **anywhere on the page**, then click "Tap To Tapiture".
+2. An overlay will appear. Select the image you want to Tap.
+3. A popup form will appear. Enter the necesssary information and click "Tap".

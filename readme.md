@@ -20,34 +20,14 @@ Enough talk! Gimme the extension files!!!
 
 #### Toolbar
 1) Click on the Tapiture Icon on The Navigation Bar
-
-![Safari Toolbar](images/safari_toolbar.png)
-
-![FireFox Toolbar](images/firefox_toolbar.png)
-
 2) An overlay will appear. Select the image you want to Tap.
-
-![Overlay](images/overlay.png)
 
 #### Menu
 1) Right click on an **image**, then click "Tap To Tapiture".
-
-![Menu](images/menu.png)
-
 2) A popup form will appear, enter the necesssary information and click "Tap".
-
-![Popup](images/popup.png)
 
 OR
 
 1) Right click **anywhere on the page**, then click "Tap To Tapiture".
-
-![Menu](images/menu.png)
-
 2) An overlay will appear. Select the image you want to Tap.
-
-![Overlay](images/overlay.png)
-
 3) A popup form will appear. Enter the necesssary information and click "Tap".
-
-![Popup](images/popup.png)
